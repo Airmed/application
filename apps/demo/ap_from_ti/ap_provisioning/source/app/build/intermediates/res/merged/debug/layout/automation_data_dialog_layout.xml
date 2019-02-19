@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/automation_data_dialog_layout"
+    android:background="@color/color_line"
+    >
+
+<TextView
+    android:id="@+id/automation_data_dialog_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:background="@color/color_red"
+    android:textColor="@android:color/white"
+    android:text="@string/automation_data"
+    android:textSize="20sp"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout
+        android:id="@+id/automation_data_dialog_textview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/automation_data_dialog_title"
+
+        android:paddingTop="1dp"
+        android:background="@color/color_line"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--<TextView-->
+            <!--android:id="@+id/automation_data_dialog_textview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="5dp"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:background="@color/color_line"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="@string/enter_automation_data"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/automation_data_dialog_sl_name_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="65dp"
+    android:background="@color/color_line"
+    android:layout_below="@+id/automation_data_dialog_textview_layout"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <EditText
+        android:id="@+id/sl_name_edittext"
+        android:inputType="text"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/new_graphics_white_box"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/sl_name_textview"
+        android:layout_toEndOf="@+id/sl_name_textview" />
+
+    <TextView
+        android:id="@+id/sl_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/simplelink_device_original_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+</RelativeLayout>
+
+    <RelativeLayout
+    android:id="@+id/automation_data_dialog_ap_name_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="65dp"
+    android:background="@color/color_line"
+    android:layout_below="@+id/automation_data_dialog_sl_name_layout"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <EditText
+        android:id="@+id/ap_name_edittext"
+        android:inputType="text"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/new_graphics_white_box"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/ap_name_textview"
+        android:layout_toEndOf="@+id/ap_name_textview" />
+
+    <TextView
+        android:id="@+id/ap_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/access_point_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/automation_data_dialog_ap_pass_check_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/color_line"
+        android:layout_below="@+id/automation_data_dialog_ap_name_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <CheckBox
+            android:id="@+id/ap_pass_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ap_pass_check_textview"
+            android:layout_toEndOf="@+id/ap_pass_check_textview"
+            android:layout_centerVertical="true"/>
+
+        <!--<EditText-->
+            <!--android:id="@+id/ap_pass_check_edittext"-->
+            <!--android:inputType="text"-->
+            <!--android:layout_width="180dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:background="@drawable/new_graphics_white_box"-->
+            <!--android:padding="5dp"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_toRightOf="@+id/ap_pass_check_textview"-->
+            <!--android:layout_toEndOf="@+id/ap_pass_check_textview" />-->
+
+        <TextView
+            android:id="@+id/ap_pass_check_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/require_pass"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/automation_data_dialog_ap_pass_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/color_line"
+        android:layout_below="@+id/automation_data_dialog_ap_pass_check_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/ap_pass_edittext"
+            android:inputType="text"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/new_graphics_white_box"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/ap_pass_textview"
+            android:layout_toEndOf="@+id/ap_pass_textview" />
+
+        <TextView
+            android:id="@+id/ap_pass_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/access_point_pass"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/automation_data_dialog_iteration_num_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="@color/color_line"
+        android:layout_below="@+id/automation_data_dialog_ap_pass_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <EditText
+            android:id="@+id/iteration_num_edittext"
+            android:inputType="number"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/new_graphics_white_box"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/iteration_num_textview"
+            android:layout_toEndOf="@+id/iteration_num_textview" />
+
+        <TextView
+            android:id="@+id/iteration_num_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/iteration_num"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_line"
+        android:id="@+id/automation_data_dialog_delay_check_layout"
+        android:layout_below="@id/automation_data_dialog_iteration_num_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delay_checkbox"
+            android:layout_toRightOf="@+id/delay_check_textview"
+            android:layout_toEndOf="@+id/delay_check_textview"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/delay_check_textview"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/delay_test_check"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/automation_data_dialog_delay_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/color_line"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/automation_data_dialog_delay_check_layout"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/delay_edittext"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/new_graphics_white_box"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/delay_textview"
+            android:layout_toEndOf="@+id/delay_textview"
+            />
+
+        <TextView
+            android:id="@+id/delay_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/delay_test_amount"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/automation_data_dialog_buttons_layout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/color_line"
+    android:layout_below="@+id/automation_data_dialog_delay_layout"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <ImageView
+        android:id="@+id/automation_data_dialog_cancel__button"
+        android:contentDescription="@string/image_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/new_graphics_cancel"/>
+
+    <ImageView
+        android:id="@+id/automation_data_dialog_ok_button"
+        android:contentDescription="@string/image_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/new_graphics_ok_on"/>
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

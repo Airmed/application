@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Apotech</string>
+    <string name="settings_build_text">Build %1$s SC lib %2$s</string>
+    <string name="menu_settings">Settings</string>
+    <string name="next">Next ></string>
+    <string name="done">Done</string>
+    <string name="refresh">Refresh</string>
+    <string name="go">Go</string>
+    <string name="send">Send</string>
+    <string name="show">Show</string>
+    <string name="outOfTheBox">Out Of The Box</string>
+    <string name="title_outOfTheBox_qrScanner">Scan the QR Code located on the package</string>
+    <string name="title_smartconfig">Device Configuration</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_ap_provisioning">Automatic Device Configuration</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_activity_ap_mode">Configuration Page</string>
+    <string name="title_activity_sc">Device config</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="smartconfig_start">Start</string>
+    <string name="smartconfig_cancel">Cancel</string>
+    <string name="smartconfig_network_name_text">WiFi network</string>
+    <string name="smartconfig_network_name_field">Network</string>
+    <string name="smartconfig_network_pass_text">Password</string>
+    <string name="smartconfig_network_pass_field">Password</string>
+    <string name="smartconfig_device_name_text">Device Name</string>
+    <string name="smartconfig_device_name_field">Name of the Device</string>
+    <string name="smartconfig_device_name_explanation">This is the device name that will serve for discovery (optional)</string>
+    <string name="smartconfig_key_text">Key</string>
+    <string name="smartconfig_key_field">Device Password</string>
+    <string name="settings_show_name_text">Show Device Name</string>
+    <string name="settings_show_name_explanation">If checked, device name entry will be available on configuration screen</string>
+    <string name="settings_open_devices_tab_text">Open in devices screen</string>
+    <string name="settings_open_devices_tab_explanation">If checked, the application will start on \'Devices List\' tab</string>
+    <string name="settings_show_password_text">Show Security Key</string>
+    <string name="settings_iot_uuid_text">Show iotLink UUID</string>
+    <string name="settings_auto_connect_text">Auto device selection</string>
+    <string name="settings_sl_sc_text">Enable Smart Config</string>
+
+    <string name="settings_device_password_text">Enable Device Password</string>
+    <string name="settings_debug_text">Enable Debug Mode</string>
+    <string name="settings_ap_mode_text">Start AP Mode</string>
+    <string name="settings_privacy_text">Privacy Policy</string>
+    <string name="settings_terms_text">Terms of Use</string>
+    <string name="settings_logs">Logs</string>
+    <string name="settings_transmit_text">Smart Config Transmit Time (seconds)</string>
+    <string name="settings_help_text">Help</string>
+    <string name="devices_recent_text">Recently Added Devices</string>
+    <string name="devices_list_text">Devices</string>
+    <string name="ap_mode_page1_title">Step 1 &#8211; 3200 (3100 press next)</string>
+    <string name="ap_mode_page2_title">Step 1 &#8211; 3100</string>
+    <string name="ap_mode_page3_title">Step 2</string>
+    <string name="ap_mode_page4_title">Step 3</string>
+    <string name="ap_mode_page5_title">Step 4</string>
+    <string name="ap_mode_page6_title">Step 5</string>
+    <string name="ap_mode_page1_text1">Connect the provided jumper to short pin P58 and VCC.</string>
+    <string name="ap_mode_page1_text2">Note: This will force the CC3200 into Access Point mode using default parameters and connect the USB cable to the Launchpad.</string>
+    <string name="ap_mode_page2_text">Connect the provided USB cable.\nPress and hold switch SW1.\nWhile holding SW1 press and release switch SW3.\nRelease SW1 one second after releasing SW3.</string>
+    <string name="ap_mode_page3_text">Open the WiFi settings on your device. Connect to network MySimpleLink-xxx. The letters xxx will vary between boards. Password is not needed.</string>
+    <string name="ap_mode_page4_text1">Click on the link below.</string>
+    <string name="ap_mode_page4_text2">The device will stream the on-board web pages to your web browser.</string>
+    <string name="ap_mode_page4_link">http://MySimpleLink.net/setup.html</string>
+    <string name="ap_mode_page5_text">Please enter your AP name and password and press \"Add Profile\".</string>
+    <string name="ap_mode_page6_text_3200">CC3200 &#8211; Remove jumper and restart the board.</string>
+    <string name="ap_mode_page6_text_3100">CC3100 &#8211; Restart the board.</string>
+    <string name="ap_mode_page6_note">Note: If your phone and SimpleLink device are connected to the same network, the device will be shown in the devices tab.</string>
+    <string name="title_activity_apmode">APModeActivity</string>
+    <string name="title_ota_tab">Firmware Update</string>
+    <string name="title_cloud_tab">Cloud Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="ti_privacy_policy_text">\n We don\'t collect any user data. \n We don\'t store or share your precise location.\n Use of social media services are governed by their \n respective terms of use and policies.
+       \n No personal data is stored or can be identified.</string>
+    <string name="ti_privacy_policy_text_header"><b>Texas Instruments (TI) Mobile Applications Privacy Policy</b></string>
+    <string name="privacy_policy_link"><u><b><i>PRIVACY POLICY</i></b></u></string>
+    <string name="ap_provisioning_wifi_name_text">Wifi Name</string>
+    <string name="new_wifi_profile_add_button_text">Add</string>
+    <string name="new_wifi_profile_headline_text">Add New Profile</string>
+    <string name="new_wifi_profile_ssid_text">SSID:</string>
+    <string name="new_wifi_profile_security_type_text">Security Type:</string>
+    <string name="new_wifi_profile_device_name_text">Device Name:</string>
+    <string name="new_wifi_profile_security_key_text">Security Key:</string>
+    <string name="new_wifi_profile_profile_priority_text">Profile Priority:</string>
+    <string name="new_wifi_profile_security_key_open_text">Open</string>
+    <string name="new_wifi_profile_security_key_wep_text">WEP</string>
+    <string name="new_wifi_profile_security_key_wpa_one_text">WPA1</string>
+    <string name="new_wifi_profile_security_key_wpa_two_text">WPA2</string>
+    <!--<string name="new_wifi_profile_password_hint_text">Hexadecimal digits &#8211; any combination of 0&#8211;9, a&#8211;f and A&#8211;F</string>-->
+    <string name="new_wifi_profile_password_hint_text">Password</string>
+    <string name="new_wifi_profile_priority_hint_text">0&#8211;7 (7 = highest)</string>
+    
+    <string name="manual_new_wifi_title">Add Profile Manually</string>
+    <string name="manual_new_wifi_ssid_hint">SSID</string>
+    <string name="manual_new_wifi_password_hint">Password</string>
+    
+    <string name="attention">Attention</string>
+    <string name="attention_wifi_range_alert_message">You cannot start the process with this network(not in your range).</string>
+    <string name="attention_security_alert_message">Must supply security key for this network.</string>
+    <string name="attention_ssid_alert_message">Must supply SSID value.</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="get_scan_result_failure">Failed to get the scan result from that device</string>
+    <string name="profile_adding_success">Profile was added successfully to the device. It is ready for use.</string>
+    <string name="profile_confirmation_failure">Unable to read the current device connection state.</string>
+    
+    <string name="ap_provisioning_spinner_headline">Search for your device</string>
+    <string name="smart_config_spinner_headline">Choose your network</string>
+    <string name="smart_config_spinner_manual_add">Add Network Manually</string>
+    <string name="tab_device_sc_configuration_password_check_label_name">WiFi password</string>
+    <string name="tab_device_configuration_headline">Device Configuration</string>
+    <string name="tab_device_configuration_device_settings_headline">Device settings</string>
+    <string name="tab_device_configuration_device_to_configure">Device to configure</string>
+    <string name="tab_device_configuration_question_mark">\?</string>
+    <string name="tab_device_configuration_device_password">Device password</string>
+    <string name="tab_device_configuration_device_name">Name your device</string>
+    <string name="tab_device_configuration_log">Log</string>
+    <string name="tab_device_configuration_configuration_key">Configuration key</string>
+    <string name="tab_device_configuration_start">Start</string>
+    <string name="tab_device_configuration_rescan">Rescan</string>
+    <string name="tab_device_configuration_confirm">Confirm</string>
+    <string name="tab_device_configuration_device_connection">Wifi Network</string>
+
+    <string name="tab_device_configuration_view_other_network">Other network</string>
+
+    <!--<string name="tab_device_configuration_qr_name">Configuration info</string>-->
+    <string name="tab_device_configuration_sc_network_name">WiFi network</string>
+    <string name="tab_device_configuration_sc_network_password">Network Password</string>
+    <string name="tab_device_configuration_sc_network_manual_name">Write Network Name</string>
+    
+    <string name="tab_device_configuration_sc_device_configure">Choose device to configure</string>
+    <string name="tab_device_configuration_sc_device_continue">Continue</string>
+    
+    <string name="image_description">image</string>
+    
+    <string name="pop_up_close">Close</string>
+    
+    <string name="tab_device_configuration_ap_search_device">Search for your device</string>
+    <string name="tab_device_configuration_ap_search_network">Search for your network</string>
+    <string name="tab_device_configuration_ap_search_router">Search for your Router</string>
+    <string name="tab_device_configuration_ap_select_device">Select Device to Configure</string>
+    <string name="tab_device_configuration_ap_select_wifi">Select your Wi-Fi router from the list</string>
+    <string name="tab_device_configuration_ap_security_wifi">Security Key</string>
+
+    <string name="tab_device_configuration_ap_router">Network Name</string>
+    
+    <string name="help_show_text">Don\'t show again</string>
+    
+    <string name="toggle_on">ON</string>
+    <string name="toggle_off">OFF</string>
+    <string name="progress_dialog_configuration_process">to confirm device configuration has succeeded.\n NO ABORT!</string>
+    <string name="title_activity_terms_of_use">TermsOfUseActivity</string>
+
+    <string name="tab_device_configuration_iot_uuid_name">iotLink UUID</string>
+    <string name="tab_device_configuration_connected_to_ssid">Connected to : %1$s</string>
+    <string name="tab_device_configuration_no_wifi_connection">No WiFi Connection</string>
+    <string name="device_pick_pop_up_view_show_only_devices">Show only devices</string>
+    <string name="device_pick_pop_up_view_show_all">Show all</string>
+    <string name="new_smart_config_fragment_no_wifi_connection">No WiFi connection</string>
+    <string name="new_smart_config_fragment_search_for_your_network">Search for your network</string>
+    <string name="scan_results_pop_up_view_minimize_wifi_networks_list">Minimize WiFi networks list</string>
+    <string name="scan_results_pop_up_view_show_all">Show all</string>
+     <string name="tab_ota_developer_mode_window_title">Enter your own tar file path</string>
+
+     <string name="simplelink_device_original_name">SimpleLink device \noriginal name:</string>
+     <string name="access_point_name">Access point \nname:</string>
+     <string name="access_point_pass">Access point \npassword:</string>
+     <string name="enter_automation_data">Enter automation data:</string>
+     <string name="automation_data">AUTOMATION DATA</string>
+     <string name="require_pass">Access point \nrequire password</string>
+     <string name="iteration_num">Amount of \niterations:</string>
+     <string name="delay_test_check">Delay test</string>
+     <string name="delay_test_amount">Delay test by \n(minuets)</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title_ap_provision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_ap_provisioning"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp" />
+    
+    <Spinner
+        android:id="@+id/ap_provision_wifi_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_ap_provision"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+    
+    <ImageView 
+        android:id="@+id/ap_provision_refresh_button"
+        android:contentDescription="@string/refresh"
+        android:src="@drawable/refresh_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/ap_provision_wifi_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/status_ap_provision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ap_provision_wifi_spinner"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/ap_provision_refresh_spinner"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ap_provision_refresh_button"
+        android:layout_alignRight="@id/ap_provision_refresh_button"
+        android:layout_alignTop="@id/ap_provision_refresh_button"
+        android:layout_alignBottom="@id/ap_provision_refresh_button"
+        android:visibility="invisible" />
+    
+    <ListView
+        android:id="@+id/ap_provision_wifi_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/ap_provision_add_manual_button"
+        android:layout_below="@+id/status_ap_provision" >
+    </ListView>
+
+    <Button
+        android:id="@+id/ap_provision_add_manual_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/ap_provision_logger"
+        android:text="@string/manual_new_wifi_title" />
+    
+    <TextView
+        android:id="@+id/ap_provision_logger"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/ap_provision_qr_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ap_provision_add_manual_button"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/outOfTheBox"
+        android:src="@drawable/qr_code" />
+
+</RelativeLayout>

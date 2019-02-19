@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeviceFragment" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/title_devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_devices"
+        android:textSize="20sp" />
+         -->
+
+    <RelativeLayout
+        android:id="@+id/tab_lan_headline_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_headline_background" >
+
+        <TextView
+            android:id="@+id/tab_lan_headline_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/title_devices"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tab_lan_headline_label"
+            android:background="@color/color_line" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/devices_refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/refresh"
+        android:src="@drawable/refresh_icon" />
+
+    <ProgressBar
+        android:id="@+id/devices_refresh_spinner"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/devices_refresh_button"
+        android:layout_alignLeft="@id/devices_refresh_button"
+        android:layout_alignRight="@id/devices_refresh_button"
+        android:layout_alignTop="@id/devices_refresh_button"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/devices_recent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tab_lan_headline_layout"
+        android:layout_marginLeft="20dp"
+        android:text="@string/devices_recent_text" />
+
+    <ListView
+        android:id="@+id/devices_recent_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/devices_recent_text"
+        android:layout_below="@id/devices_recent_text"
+        android:choiceMode="singleChoice"
+        android:layout_marginRight="20dp"
+        >
+    </ListView>
+
+    <ListView
+        android:id="@+id/devices_list_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"
+        android:layout_alignLeft="@id/devices_recent_listView"
+        android:layout_below="@id/devices_recent_listView"
+        android:choiceMode="singleChoice"
+        android:layout_marginRight="20dp">
+    </ListView>
+    <ListView
+        android:id="@+id/devices_list_long_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"
+        android:layout_alignLeft="@id/devices_recent_listView"
+        android:layout_below="@id/devices_recent_listView"
+        android:choiceMode="singleChoice"
+        android:layout_marginRight="20dp">
+    </ListView>
+
+</RelativeLayout>

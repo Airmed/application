@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\menu\\apmode.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\menu\\apmode.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_terms_of_use.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\menu\\menu_terms_of_use.xml"
+    }
+]

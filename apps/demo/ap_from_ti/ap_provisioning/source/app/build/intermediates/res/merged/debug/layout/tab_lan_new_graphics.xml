@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/tab_lan_headline_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:background="@color/color_ota_background" >
+
+        <TextView
+            android:id="@+id/tab_lan_headline_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:text="LaunchPad Demo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shadow_roundcorners"
+            android:id="@+id/background_borders"
+            android:padding="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tab_lan_headline_label">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/device_info_layout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DEVICE INFORMATION"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners_disabled"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/lan_device_info_box_layout"
+                android:layout_below="@+id/device_info_layout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+
+                <TextView
+                    android:id="@+id/tab_lan_ssid_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:text="SSID :"
+                    android:textColor="@android:color/white"
+                    android:paddingBottom="5dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp"
+                    android:layout_alignTop="@+id/lan_tab_ssid_textview"
+                    android:layout_alignLeft="@+id/tab_lan_macaddress_label"
+                    android:layout_alignStart="@+id/tab_lan_macaddress_label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Information"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/lan_tab_ssid_textview"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tab_lan_macaddress_label"
+                    android:layout_toRightOf="@+id/tab_lan_ssid_label"
+                    android:layout_toEndOf="@+id/tab_lan_ssid_label"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tab_lan_macaddress_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingBottom="5dp"
+                    android:text="MAC Address :"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tab_lan_cloud_label"
+                    android:layout_alignLeft="@+id/tab_lan_cloud_label"
+                    android:layout_alignStart="@+id/tab_lan_cloud_label" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No information"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tab_lan_macaddress_textview"
+                    android:textSize="16sp"
+                    android:paddingLeft="3dp"
+                    android:layout_alignBaseline="@+id/tab_lan_macaddress_label"
+                    android:layout_toRightOf="@+id/tab_lan_macaddress_label"
+                    android:layout_toEndOf="@+id/tab_lan_macaddress_label" />
+
+
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_router_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="IP Address :"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:paddingBottom="5dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tab_lan_ssid_label"
+                    android:layout_alignLeft="@+id/tab_lan_ssid_label"
+                    android:layout_alignStart="@+id/tab_lan_ssid_label" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No information"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tab_lan_ipaddress_textview"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignBaseline="@+id/tab_device_configuration_router_label"
+                    android:layout_toRightOf="@+id/tab_device_configuration_router_label"
+                    android:layout_toEndOf="@+id/tab_device_configuration_router_label" />
+
+
+
+                <TextView
+                    android:id="@+id/tab_lan_accelerometer_label"
+                    android:text="Accelerometer :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:textStyle="bold"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tab_device_configuration_router_label"
+                    android:layout_alignLeft="@+id/tab_device_configuration_router_label"
+                    android:layout_alignStart="@+id/tab_device_configuration_router_label" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X:"
+                    android:id="@+id/tab_lan_accelerometer_axisx"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="bold"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_label"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_label"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:id="@+id/tab_lan_axisx_respone"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_axisx"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_axisx"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_axisx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Y:"
+                    android:id="@+id/tab_lan_accelerometer_axisy"
+                    android:layout_marginLeft="36dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_axisx"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_axisx"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_axisx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tab_lan_axisy_respone"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_axisy"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_axisy"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_axisy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Z:"
+                    android:id="@+id/tab_lan_accelerometer_axisz"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="36dp"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_axisy"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_axisy"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_axisy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tab_lan_axisz_respone"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignBottom="@+id/tab_lan_accelerometer_axisz"
+                    android:layout_toRightOf="@+id/tab_lan_accelerometer_axisz"
+                    android:layout_toEndOf="@+id/tab_lan_accelerometer_axisz" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/redled_status_title"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/lan_device_info_box_layout"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LED STATUS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:id="@+id/red_led_text"
+                    android:layout_marginTop="44dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/red_led_button"
+                    android:background="@drawable/opengl_tab_gray_led"
+                    android:layout_below="@+id/led_second_textview"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/led_second_textview"
+                    android:text="(Click to change)"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_below="@+id/red_led_text"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!-->-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/tab_lan_headline_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:padding="10dp"-->
+                <!--android:background="@color/color_ota_background" >-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tab_lan_headline_label"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:gravity="center_vertical|center_horizontal"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:text="LaunchPad Demo"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/layout_rounded_corners"-->
+                    <!--android:id="@+id/background_borders"-->
+                    <!--android:padding="15dp"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/tab_lan_headline_label">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="20dp"-->
+                    <!--android:layout_marginTop="30dp"-->
+                    <!--android:id="@+id/device_info_layout"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="DEVICE INFORMATION"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textColor="@android:color/darker_gray"-->
+                        <!--android:textSize="17sp"-->
+                        <!--android:gravity="center_horizontal|center_vertical"-->
+                        <!--/>-->
+
+                <!--</RelativeLayout>-->
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/rounded_corners_disabled"-->
+                    <!--android:paddingBottom="20dp"-->
+                    <!--android:paddingTop="20dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:id="@+id/lan_device_info_box_layout"-->
+                    <!--android:layout_below="@+id/device_info_layout"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true">-->
+
+
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tab_lan_ssid_label"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:maxLines="1"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:text="SSID :"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:paddingBottom="5dp"-->
+                                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_alignTop="@+id/lan_tab_ssid_textview"-->
+                                <!--android:layout_alignLeft="@+id/tab_lan_macaddress_label"-->
+                                <!--android:layout_alignStart="@+id/tab_lan_macaddress_label" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="No Information"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:id="@+id/lan_tab_ssid_textview"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_below="@+id/tab_lan_macaddress_label"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_ssid_label"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_ssid_label"-->
+                                <!--/>-->
+
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tab_lan_macaddress_label"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:paddingBottom="5dp"-->
+                                <!--android:text="MAC Address :"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_below="@+id/tab_lan_cloud_label"-->
+                                <!--android:layout_alignLeft="@+id/tab_lan_cloud_label"-->
+                                <!--android:layout_alignStart="@+id/tab_lan_cloud_label" />-->
+
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="No information"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:id="@+id/tab_lan_macaddress_textview"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:paddingLeft="3dp"-->
+                                <!--android:layout_alignBaseline="@+id/tab_lan_macaddress_label"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_macaddress_label"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_macaddress_label" />-->
+
+
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tab_device_configuration_router_label"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:maxLines="1"-->
+                                <!--android:text="IP Address :"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:paddingBottom="5dp"-->
+                                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_below="@+id/tab_lan_ssid_label"-->
+                                <!--android:layout_alignLeft="@+id/tab_lan_ssid_label"-->
+                                <!--android:layout_alignStart="@+id/tab_lan_ssid_label" />-->
+
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="No information"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:id="@+id/tab_lan_ipaddress_textview"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_marginLeft="5dp"-->
+                                <!--android:layout_alignBaseline="@+id/tab_device_configuration_router_label"-->
+                                <!--android:layout_toRightOf="@+id/tab_device_configuration_router_label"-->
+                                <!--android:layout_toEndOf="@+id/tab_device_configuration_router_label" />-->
+
+
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tab_lan_accelerometer_label"-->
+                                <!--android:text="Accelerometer :"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:maxLines="2"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:paddingBottom="3dp"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_below="@+id/tab_device_configuration_router_label"-->
+                                <!--android:layout_alignLeft="@+id/tab_device_configuration_router_label"-->
+                                <!--android:layout_alignStart="@+id/tab_device_configuration_router_label" />-->
+
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="X:"-->
+                                <!--android:id="@+id/tab_lan_accelerometer_axisx"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_marginLeft="10dp"-->
+                                <!--android:layout_marginBottom="3dp"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_label"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_label"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_label" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="null"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:id="@+id/tab_lan_axisx_respone"-->
+                                <!--android:layout_marginLeft="2dp"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_axisx"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_axisx"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_axisx" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Y:"-->
+                                <!--android:id="@+id/tab_lan_accelerometer_axisy"-->
+                                <!--android:layout_marginLeft="36dp"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_axisx"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_axisx"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_axisx" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="null"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:id="@+id/tab_lan_axisy_respone"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_marginLeft="2dp"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_axisy"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_axisy"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_axisy" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Z:"-->
+                                <!--android:id="@+id/tab_lan_accelerometer_axisz"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:layout_marginLeft="36dp"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_axisy"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_axisy"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_axisy" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="null"-->
+                                <!--android:textColor="@android:color/white"-->
+                                <!--android:id="@+id/tab_lan_axisz_respone"-->
+                                <!--android:textSize="16sp"-->
+                                <!--android:layout_marginLeft="2dp"-->
+                                <!--android:layout_alignBottom="@+id/tab_lan_accelerometer_axisz"-->
+                                <!--android:layout_toRightOf="@+id/tab_lan_accelerometer_axisz"-->
+                                <!--android:layout_toEndOf="@+id/tab_lan_accelerometer_axisz" />-->
+
+
+
+                <!--</RelativeLayout>-->
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:layout_marginBottom="20dp"-->
+
+                    <!--android:id="@+id/relativeLayout4"-->
+                    <!--android:layout_below="@+id/lan_device_info_box_layout"-->
+                    <!--android:layout_centerHorizontal="true">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="RED LED STATUS"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textSize="17sp"-->
+                        <!--android:textColor="@android:color/darker_gray"-->
+                        <!--android:gravity="center_horizontal|center_vertical"-->
+                        <!--android:id="@+id/red_led_text"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_alignParentLeft="true"-->
+                        <!--android:layout_alignParentStart="true" />-->
+                <!--</RelativeLayout>-->
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/rounded_corners_disabled"-->
+                    <!--android:id="@+id/lan_device_info_box"-->
+                    <!--android:padding="20dp"-->
+                    <!--android:layout_below="@+id/relativeLayout4"-->
+                    <!--android:layout_centerHorizontal="true">-->
+                <!--<ImageButton-->
+                    <!--android:layout_width="70dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:id="@+id/red_led_button"-->
+                    <!--android:background="@drawable/opengl_tab_gray_led"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+            <!--</RelativeLayout>-->
+            <!--</RelativeLayout>-->
+<!--</RelativeLayout>-->

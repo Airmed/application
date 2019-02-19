@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_help_background">
+
+
+    <RelativeLayout
+        android:id="@+id/tab_lan_headline_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_headline_background" >
+
+        <TextView
+            android:id="@+id/tab_lan_headline_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/title_cloud_tab"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/connection_statues_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/tab_device_configuration_sc_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Cloud connection status :"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:id="@+id/connection_statues_textview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/connection_statues_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/relativeLayout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/send_box_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="30dp"
+
+
+
+                android:background="@color/color_line" >
+
+                <LinearLayout
+                    android:id="@+id/sendto_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:background="@color/color_line">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Send To: "
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/freetext_textview" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:ems="10"
+                        android:id="@+id/send_to_edittext"
+                        android:hint="Enter email" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/freetext_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/color_line">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Free Text:"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/textView" />
+
+                    <EditText
+                        android:id="@+id/freetext_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:ems="10"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/send_box_layout"
+                android:id="@+id/tab_cloud_trigger_view">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Trigger mode :"
+                    android:id="@+id/trigger_mode_textview"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginStart="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Push button"
+                    android:paddingRight="2dp"
+                    android:textSize="16sp"
+                    android:id="@+id/trigger_mode_push_button_textview"
+                    android:layout_alignBaseline="@+id/push_button_radio_button"
+                    android:layout_alignBottom="@+id/push_button_radio_button"
+                    android:layout_alignRight="@+id/trigger_mode_textview"
+                    android:layout_alignEnd="@+id/trigger_mode_textview" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Shake board"
+                    android:id="@+id/trigger_mode_shake_board"
+                    android:textSize="16sp"
+                    android:layout_alignBaseline="@+id/shake_board_radio_button"
+                    android:layout_alignBottom="@+id/shake_board_radio_button"
+                    android:layout_alignRight="@+id/trigger_mode_textview"
+                     />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/push_button_radio_button"
+                    android:checked="false"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/shake_board_radio_button"
+                    android:layout_below="@+id/push_button_radio_button"
+                    android:layout_alignLeft="@+id/push_button_radio_button"
+                    android:layout_alignStart="@+id/push_button_radio_button" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Configure"
+                    android:id="@+id/cloud_configuration_button"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+                <RadioGroup
+                    android:id="@+id/trigger_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@+id/push_button_radio_button"
+                    android:layout_alignLeft="@+id/push_button_radio_button"
+                    android:layout_alignStart="@+id/push_button_radio_button"
+                    android:layout_alignBottom="@+id/shake_board_radio_button"
+                    android:layout_alignRight="@+id/push_button_radio_button"
+                    android:layout_alignEnd="@+id/push_button_radio_button"></RadioGroup>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/send_email__label"
+            android:text="Send Email"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="28dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:id="@+id/cloud_connection_textview"
+            android:textStyle="bold"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_toRightOf="@+id/connection_statues_textview"
+            android:layout_toEndOf="@+id/connection_statues_textview" />
+
+    </RelativeLayout>
+</RelativeLayout>

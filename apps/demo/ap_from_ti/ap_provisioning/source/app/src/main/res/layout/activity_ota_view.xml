@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/tab_lan_headline_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:background= "@color/color_line">
+
+        <TextView
+            android:id="@+id/tab_lan_headline_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@android:color/white"
+            android:text="@string/title_ota_tab"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RelativeLayout
+
+            android:id="@+id/info_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="45dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/shadow_roundcorners">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check for software update"
+                android:id="@+id/software_status_button"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@android:color/white"
+                android:layout_alignBottom="@+id/check_version_button"
+                android:layout_alignRight="@+id/update_version_button"
+                android:layout_alignEnd="@+id/update_version_button"
+                android:layout_toEndOf="@+id/check_version_button"
+                android:layout_toRightOf="@+id/check_version_button" />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="44dp"
+                android:id="@+id/check_version_button"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/download_cloud_red"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current SW version is :   "
+                android:id="@+id/current_sw_version_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@+id/software_status_button"
+                android:layout_alignLeft="@+id/check_version_button"
+                android:layout_alignStart="@+id/check_version_button"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No information"
+                android:id="@+id/current_sw_version_textview_update"
+                android:layout_alignBottom="@+id/current_sw_version_title"
+                android:layout_toRightOf="@+id/current_sw_version_title"
+
+                android:layout_alignTop="@+id/current_sw_version_title"
+                android:layout_alignRight="@+id/update_version_button"
+                android:layout_alignEnd="@+id/update_version_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New SW version  :   "
+                android:id="@+id/newest_software_version_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@+id/current_sw_version_textview_update"
+                android:layout_alignLeft="@+id/current_sw_version_title"
+                android:layout_alignStart="@+id/current_sw_version_title"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No information"
+                android:id="@+id/newest_software_version_title_textview_update"
+                android:layout_alignBottom="@+id/newest_software_version_title"
+                android:layout_toRightOf="@+id/newest_software_version_title"
+                android:layout_toEndOf="@+id/newest_software_version_title" />
+
+            <Button
+                android:layout_width="290dp"
+                android:layout_height="60dp"
+                android:text="PROGRAM"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/update_version_button"
+                android:background="@drawable/rounded_corners_disabled"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_below="@+id/newest_software_version_title"
+                android:layout_alignLeft="@+id/newest_software_version_title"
+                android:layout_alignStart="@+id/newest_software_version_title"
+                android:layout_marginTop="30dp" />
+
+            <RelativeLayout
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/update_version_button"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/square_border_black"
+                android:id="@+id/upload_status_box"
+                android:layout_alignLeft="@+id/update_version_button"
+                android:layout_alignStart="@+id/update_version_button"
+                android:layout_alignRight="@+id/update_version_button"
+                android:layout_alignEnd="@+id/update_version_button"
+                android:layout_alignParentBottom="true">
+
+                <ScrollView
+                    android:id="@+id/scroller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="8dp"
+                        android:padding="2dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:id="@+id/update_software_append_textview"
+                        android:textStyle="bold"
+                        />
+
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/software_update_progressBar"
+                android:gravity="center_vertical|center_horizontal"
+
+                android:layout_alignBottom="@+id/upload_status_box"
+                android:layout_alignLeft="@+id/upload_status_box"
+                android:progressBackgroundTint="@android:color/black"
+                android:progressTint="@color/color_red"
+                android:layout_alignRight="@+id/upload_status_box"
+                android:layout_alignEnd="@+id/upload_status_box"
+                android:layout_marginBottom="-30dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab_ota_progressbar_textview"
+                android:textSize="15sp"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_alignLeft="@id/software_update_progressBar" android:layout_alignTop="@id/software_update_progressBar"
+                android:layout_alignRight="@id/software_update_progressBar" android:layout_alignBottom="@id/software_update_progressBar"
+                android:background="@android:color/transparent" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_ota_configuration_laoder_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_loader_background"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/tab_ota_configuration_laoder_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/tab_ota_configuration_laoder_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab_ota_configuration_laoder_progress"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/tab_lan_headline_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:padding="10dp"-->
+    <!--android:background="@color/color_ota_background" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tab_lan_headline_label"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="10dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:textStyle="bold"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:text="@string/title_ota_tab"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--<RelativeLayout-->
+
+    <!--android:id="@+id/info_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:layout_marginTop="45dp"-->
+    <!--android:paddingBottom="20dp"-->
+    <!--android:background="@drawable/shadow_roundcorners">-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Check for software update"-->
+    <!--android:id="@+id/software_status_button"-->
+    <!--android:textSize="16sp"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:padding="10dp"-->
+    <!--android:layout_marginLeft="7dp"-->
+    <!--android:background="@drawable/rounded_corners"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:layout_alignBottom="@+id/check_version_button"-->
+    <!--android:layout_alignRight="@+id/update_version_button"-->
+    <!--android:layout_alignEnd="@+id/update_version_button"-->
+    <!--android:layout_toEndOf="@+id/check_version_button"-->
+    <!--android:layout_toRightOf="@+id/check_version_button" />-->
+
+    <!--<ImageButton-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:id="@+id/check_version_button"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:background="@drawable/download_cloud_red"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Current SW version is :   "-->
+    <!--android:id="@+id/current_sw_version_title"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@android:color/darker_gray"-->
+    <!--android:layout_below="@+id/software_status_button"-->
+    <!--android:layout_alignLeft="@+id/check_version_button"-->
+    <!--android:layout_alignStart="@+id/check_version_button"-->
+    <!--android:layout_marginTop="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="No information"-->
+    <!--android:id="@+id/current_sw_version_textview_update"-->
+    <!--android:layout_alignBottom="@+id/current_sw_version_title"-->
+    <!--android:layout_toRightOf="@+id/current_sw_version_title"-->
+
+    <!--android:layout_alignTop="@+id/current_sw_version_title"-->
+    <!--android:layout_alignRight="@+id/update_version_button"-->
+    <!--android:layout_alignEnd="@+id/update_version_button" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="New SW version  :   "-->
+    <!--android:id="@+id/newest_software_version_title"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@android:color/darker_gray"-->
+    <!--android:layout_below="@+id/current_sw_version_textview_update"-->
+    <!--android:layout_alignLeft="@+id/current_sw_version_title"-->
+    <!--android:layout_alignStart="@+id/current_sw_version_title"-->
+    <!--android:layout_marginTop="15dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="No information"-->
+    <!--android:id="@+id/newest_software_version_title_textview_update"-->
+    <!--android:layout_alignBottom="@+id/newest_software_version_title"-->
+    <!--android:layout_toRightOf="@+id/newest_software_version_title"-->
+    <!--android:layout_toEndOf="@+id/newest_software_version_title" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="290dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:text="PROGRAM"-->
+    <!--android:textSize="24sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:id="@+id/update_version_button"-->
+    <!--android:background="@drawable/rounded_corners_disabled"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:layout_below="@+id/newest_software_version_title"-->
+    <!--android:layout_alignLeft="@+id/newest_software_version_title"-->
+    <!--android:layout_alignStart="@+id/newest_software_version_title"-->
+    <!--android:layout_marginTop="30dp" />-->
+
+    <!--<RelativeLayout-->
+    <!--android:visibility="invisible"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/update_version_button"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:background="@drawable/square_border_black"-->
+    <!--android:id="@+id/upload_status_box"-->
+    <!--android:layout_alignLeft="@+id/update_version_button"-->
+    <!--android:layout_alignStart="@+id/update_version_button"-->
+    <!--android:layout_alignRight="@+id/update_version_button"-->
+    <!--android:layout_alignEnd="@+id/update_version_button"-->
+    <!--android:layout_alignParentBottom="true">-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="7dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="16sp"-->
+    <!--android:id="@+id/update_software_append_textview"-->
+    <!--android:textStyle="bold"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<ProgressBar-->
+    <!--style="@android:style/Widget.ProgressBar.Horizontal"-->
+    <!--android:visibility="invisible"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/software_update_progressBar"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+
+    <!--android:layout_alignBottom="@+id/upload_status_box"-->
+    <!--android:layout_alignLeft="@+id/upload_status_box"-->
+    <!--android:progressBackgroundTint="@android:color/black"-->
+    <!--android:progressTint="@color/color_red"-->
+    <!--android:layout_alignRight="@+id/upload_status_box"-->
+    <!--android:layout_alignEnd="@+id/upload_status_box"-->
+    <!--android:layout_marginBottom="-30dp"-->
+
+
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/tab_ota_progressbar_textview"-->
+    <!--android:textSize="15sp"-->
+    <!--android:text=""-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textStyle="bold"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:layout_alignLeft="@id/software_update_progressBar" android:layout_alignTop="@id/software_update_progressBar"-->
+    <!--android:layout_alignRight="@id/software_update_progressBar" android:layout_alignBottom="@id/software_update_progressBar"-->
+    <!--android:background="@android:color/transparent" />-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/tab_ota_configuration_laoder_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/color_loader_background"-->
+    <!--android:visibility="gone" >-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/tab_ota_configuration_laoder_progress"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingTop="80dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tab_ota_configuration_laoder_label"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tab_ota_configuration_laoder_progress"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="9dp"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+    <!--android:textColor="@android:color/white" />-->
+
+    <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/tab_lan_headline_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/color_ota_background" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tab_lan_headline_label"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:textStyle="bold"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="@string/title_ota_tab"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <!--<RelativeLayout-->
+
+            <!--android:id="@+id/info_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:layout_marginTop="45dp"-->
+            <!--android:paddingBottom="20dp"-->
+            <!--android:background="@drawable/shadow_roundcorners">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Check for software update"-->
+                <!--android:id="@+id/software_status_button"-->
+                <!--android:textSize="16sp"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_marginLeft="7dp"-->
+                <!--android:background="@drawable/rounded_corners"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:layout_alignBottom="@+id/check_version_button"-->
+                <!--android:layout_alignRight="@+id/update_version_button"-->
+                <!--android:layout_alignEnd="@+id/update_version_button"-->
+                <!--android:layout_toEndOf="@+id/check_version_button"-->
+                <!--android:layout_toRightOf="@+id/check_version_button" />-->
+
+            <!--<ImageButton-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:id="@+id/check_version_button"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:background="@drawable/download_cloud_red"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Current SW version is :   "-->
+                <!--android:id="@+id/current_sw_version_title"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@android:color/darker_gray"-->
+                <!--android:layout_below="@+id/software_status_button"-->
+                <!--android:layout_alignLeft="@+id/check_version_button"-->
+                <!--android:layout_alignStart="@+id/check_version_button"-->
+                <!--android:layout_marginTop="20dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="No information"-->
+                <!--android:id="@+id/current_sw_version_textview_update"-->
+                <!--android:layout_alignBottom="@+id/current_sw_version_title"-->
+                <!--android:layout_toRightOf="@+id/current_sw_version_title"-->
+
+                <!--android:layout_alignTop="@+id/current_sw_version_title"-->
+                <!--android:layout_alignRight="@+id/update_version_button"-->
+                <!--android:layout_alignEnd="@+id/update_version_button" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New SW version  :   "-->
+                <!--android:id="@+id/newest_software_version_title"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@android:color/darker_gray"-->
+                <!--android:layout_below="@+id/current_sw_version_textview_update"-->
+                <!--android:layout_alignLeft="@+id/current_sw_version_title"-->
+                <!--android:layout_alignStart="@+id/current_sw_version_title"-->
+                <!--android:layout_marginTop="15dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="No information"-->
+                <!--android:id="@+id/newest_software_version_title_textview_update"-->
+                <!--android:layout_alignBottom="@+id/newest_software_version_title"-->
+                <!--android:layout_toRightOf="@+id/newest_software_version_title"-->
+                <!--android:layout_toEndOf="@+id/newest_software_version_title" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="290dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:text="PROGRAM"-->
+                <!--android:textSize="24sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:id="@+id/update_version_button"-->
+                <!--android:background="@drawable/rounded_corners_disabled"-->
+                <!--android:gravity="center_vertical|center_horizontal"-->
+                <!--android:layout_below="@+id/newest_software_version_title"-->
+                <!--android:layout_alignLeft="@+id/newest_software_version_title"-->
+                <!--android:layout_alignStart="@+id/newest_software_version_title"-->
+                <!--android:layout_marginTop="30dp" />-->
+
+            <!--<RelativeLayout-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/update_version_button"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginBottom="30dp"-->
+                <!--android:background="@drawable/square_border_black"-->
+                <!--android:id="@+id/upload_status_box"-->
+                <!--android:layout_alignLeft="@+id/update_version_button"-->
+                <!--android:layout_alignStart="@+id/update_version_button"-->
+                <!--android:layout_alignRight="@+id/update_version_button"-->
+                <!--android:layout_alignEnd="@+id/update_version_button"-->
+                <!--android:layout_alignParentBottom="true">-->
+
+                <!--<ScrollView-->
+                    <!--android:id="@+id/scroller"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbars="vertical"-->
+                    <!--android:fillViewport="true">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="7dp"-->
+                    <!--android:layout_marginStart="7dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:padding="2dp"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:id="@+id/update_software_append_textview"-->
+                    <!--android:textStyle="bold"-->
+                    <!--/>-->
+
+
+                <!--</ScrollView>-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<ProgressBar-->
+                <!--style="@android:style/Widget.ProgressBar.Horizontal"-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/software_update_progressBar"-->
+                <!--android:gravity="center_vertical|center_horizontal"-->
+
+                <!--android:layout_alignBottom="@+id/upload_status_box"-->
+                <!--android:layout_alignLeft="@+id/upload_status_box"-->
+                <!--android:progressBackgroundTint="@android:color/black"-->
+                <!--android:progressTint="@color/color_red"-->
+                <!--android:layout_alignRight="@+id/upload_status_box"-->
+                <!--android:layout_alignEnd="@+id/upload_status_box"-->
+                <!--android:layout_marginBottom="-30dp"-->
+
+
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/tab_ota_progressbar_textview"-->
+                <!--android:textSize="15sp"-->
+                <!--android:text=""-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textStyle="bold"-->
+                <!--android:gravity="center_vertical|center_horizontal"-->
+                <!--android:layout_alignLeft="@id/software_update_progressBar" android:layout_alignTop="@id/software_update_progressBar"-->
+                <!--android:layout_alignRight="@id/software_update_progressBar" android:layout_alignBottom="@id/software_update_progressBar"-->
+                <!--android:background="@android:color/transparent" />-->
+
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/tab_ota_configuration_laoder_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/color_loader_background"-->
+            <!--android:visibility="gone" >-->
+
+            <!--<ProgressBar-->
+                <!--android:id="@+id/tab_ota_configuration_laoder_progress"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="80dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tab_ota_configuration_laoder_label"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tab_ota_configuration_laoder_progress"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="9dp"-->
+                <!--android:gravity="center_vertical|center_horizontal"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:textColor="@android:color/white" />-->
+
+        <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+<!--</LinearLayout>-->
+
+
+
+
+
+    <!--&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent">&ndash;&gt;-->
+    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tab_lan_headline_layout"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentRight="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/color_ota_background" >&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/tab_lan_headline_label"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentRight="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/title_ota_tab"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="20sp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textAppearance="?android:attr/textAppearanceMedium" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+
+            <!--&lt;!&ndash;android:id="@+id/info_view"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="45dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="20dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/shadow_roundcorners">&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="Check for software update"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/software_status_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="16sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginBottom="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginLeft="7dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/rounded_corners"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignBottom="@+id/check_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignRight="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignEnd="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_toEndOf="@+id/check_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_toRightOf="@+id/check_version_button" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<ImageButton&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="60dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="60dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/check_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="30dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/download_cloud_red"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentStart="true" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="Current SW version is :   "&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/current_sw_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="16sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/darker_gray"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/software_status_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@+id/check_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignStart="@+id/check_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="20dp" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="No information"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/current_sw_version_textview_update"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignBottom="@+id/current_sw_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_toRightOf="@+id/current_sw_version_title"&ndash;&gt;-->
+
+                <!--&lt;!&ndash;android:layout_alignTop="@+id/current_sw_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignRight="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignEnd="@+id/update_version_button" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="New SW version  :   "&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="16sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/darker_gray"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/current_sw_version_textview_update"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@+id/current_sw_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignStart="@+id/current_sw_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="15dp" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="No information"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/newest_software_version_title_textview_update"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignBottom="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_toRightOf="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_toEndOf="@+id/newest_software_version_title" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="290dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="60dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="PROGRAM"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="24sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/rounded_corners_disabled"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignStart="@+id/newest_software_version_title"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="30dp" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:visibility="invisible"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginBottom="30dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/square_border_black"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/upload_status_box"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignStart="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignRight="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignEnd="@+id/update_version_button"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentBottom="true">&ndash;&gt;-->
+
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginLeft="7dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginTop="8dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="16sp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/update_software_append_textview"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_alignParentStart="true" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<ProgressBar&ndash;&gt;-->
+                <!--&lt;!&ndash;style="@android:style/Widget.ProgressBar.Horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:visibility="invisible"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/software_update_progressBar"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+
+                <!--&lt;!&ndash;android:layout_alignBottom="@+id/upload_status_box"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@+id/upload_status_box"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:progressBackgroundTint="@android:color/black"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:progressTint="@color/color_red"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignRight="@+id/upload_status_box"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignEnd="@+id/upload_status_box"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginBottom="-30dp"&ndash;&gt;-->
+
+
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/tab_ota_progressbar_textview"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="15sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text=""&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignLeft="@id/software_update_progressBar" android:layout_alignTop="@id/software_update_progressBar"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignRight="@id/software_update_progressBar" android:layout_alignBottom="@id/software_update_progressBar"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@android:color/transparent" />&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/tab_ota_configuration_laoder_layout"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@color/color_loader_background"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:visibility="gone" >&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<ProgressBar&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/tab_ota_configuration_laoder_progress"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:paddingTop="80dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_centerVertical="true" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/tab_ota_configuration_laoder_label"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/tab_ota_configuration_laoder_progress"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="9dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textAppearance="?android:attr/textAppearanceMedium"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->

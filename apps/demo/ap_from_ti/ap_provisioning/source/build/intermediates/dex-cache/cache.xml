@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\log4j-1.2.17_c4de6d521f35ceedfb6df2af613604f3b925be5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\jsoup-1.8.1_ec41fc263c07d196d4613d63b2ea8f819ced42a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\.gradle\caches\modules-2\files-2.1\org.androidannotations\androidannotations-api\3.2\89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1\androidannotations-api-3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\androidannotations-api-3.2_10ffc4137366afc9ce903323c9d0a1626e4ec442.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_684439b36ac04d940a755777f503240aafdc559a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\exploded-aar\fr.avianey.com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\fr.avianey.com.viewpagerindicator-library-2.4.1_e650c2b07eea767b4141a700a81cab0931520b56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\jmdns-3.4.2-r353-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\jmdns-3.4.2-r353-1_4e68a418aac6a5412b4b5245ef6e857c131f28fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_a89dbb72a79f03a9d4d9d160af76768bda7ba065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3_f0514a217ab69f1de5ef46ec699778bf0dc34c5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\smartconfiglib2_7c9fd041a7514bb84196e02deddf0b0ce5f89074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_c3d4aa429d9ea19cea204b212f32845bd640b0cc.jar" />
+    </item>
+
+</items>

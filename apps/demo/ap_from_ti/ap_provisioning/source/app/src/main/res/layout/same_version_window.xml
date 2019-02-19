@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/developer_mode_window_layout"
+
+    >
+
+    <TextView
+        android:id="@+id/same_version_window_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="@color/color_red"
+        android:textColor="@android:color/white"
+        android:text="The device version is up to date"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/same_version_window_bottons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_line"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/same_version_window_textview_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/same_version_window_cancel__button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_no_off"/>
+        <ImageView
+            android:id="@+id/same_version_window_ok_button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_yes_off"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/same_version_window_textview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/same_version_window_title"
+        android:paddingTop="10dp"
+        android:background="@color/color_line"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/same_version_window_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@color/color_line"
+            android:textColor="@android:color/black"
+            android:text="Would you like to update anyway?"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

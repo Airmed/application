@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/developer_mode_window_layout"
+    android:background="@color/color_line"
+    >
+
+    <TextView
+        android:id="@+id/scan_results_pop_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="@color/color_red"
+        android:textColor="@android:color/white"
+        android:text="DEVELOPER MODE"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout
+        android:id="@+id/developer_mode_url_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/color_line"
+        android:layout_below="@+id/developer_mode_textview_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/developer_mode_edittext"
+            android:inputType="text"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/new_graphics_white_box"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/tar_path"
+            android:layout_toEndOf="@+id/tar_path" />
+
+        <TextView
+            android:id="@+id/tar_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="URL :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/developer_mode_bottons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_line"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/developer_mode_url_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/developer_mode_window_cancel__button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_cancel"/>
+
+        <ImageView
+            android:id="@+id/developer_mode_window_ok_button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_ok_off"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/developer_mode_textview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scan_results_pop_up_title"
+
+        android:paddingTop="1dp"
+        android:background="@color/color_line"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/developer_mode_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@color/color_line"
+            android:textColor="@android:color/black"
+            android:text="@string/tab_ota_developer_mode_window_title"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
