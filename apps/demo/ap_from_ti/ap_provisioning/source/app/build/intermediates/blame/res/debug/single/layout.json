@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page2.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\help_page2.xml"
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_lan_view.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
@@ -12,12 +12,132 @@
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\device_pick_pop_up_view.xml"
     },
     {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_device_configuration.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_device_configuration.xml"
+    },
+    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\automation_data_dialog_layout.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\automation_data_dialog_layout.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_device_configuration.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_device_configuration.xml"
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_settings_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_settings_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_pick_pop_up_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\device_pick_pop_up_view.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ap_mode_view.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_ap_mode_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_view_without_3d_image.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_lan_view_without_3d_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ota_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_ota_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page1.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\help_page1.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_results_pop_up_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\scan_results_pop_up_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\developer_mode_window.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\developer_mode_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page2.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\help_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\same_version_window.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\same_version_window.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_devices_item.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\list_devices_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_new_device_item.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\list_new_device_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_fragment.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\help_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_layout.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\popup_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_device_configuration.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_device_configuration.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_ap_provision_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_ap_provision_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_view_without_3d_image.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_lan_view_without_3d_image.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page1.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\help_page1.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_layout.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\popup_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_row.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\spinner_row.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\same_version_window.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\same_version_window.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ota_view.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_ota_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_new_smart_config.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_new_smart_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cloud_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\cloud_view.xml"
+    },
+    {
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page2.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\help_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\developer_mode_window.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\developer_mode_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_devices_item.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\list_devices_item.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_view.xml",
@@ -36,20 +156,20 @@
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\wifi_item.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ap_mode_view.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_ap_mode_view.xml"
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\automation_data_dialog_layout.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\automation_data_dialog_layout.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_ap_provision_view.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_ap_provision_view.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_view_without_3d_image.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_lan_view_without_3d_image.xml"
-    },
-    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_row.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\spinner_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_lan_new_graphics.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_lan_new_graphics.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_result_list_item.xml",
@@ -72,24 +192,20 @@
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\ota_success_window.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\developer_mode_window.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\developer_mode_window.xml"
-    },
-    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_settings_view.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_settings_view.xml"
-    },
-    {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_new_device_item.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\list_new_device_item.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_fragment.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\help_fragment.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_devices_item.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\list_devices_item.xml"
+        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_new_device_item.xml",
+        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\list_new_device_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_terms_of_use.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_terms_of_use.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page3.xml",
@@ -100,31 +216,43 @@
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\cloud_view.xml"
     },
     {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ap_mode_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_ap_mode_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_privacy_policy.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+    },
+    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_devices_view.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\tab_devices_view.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_layout.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\popup_layout.xml"
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_devices_view.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\tab_devices_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ota_success_window.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\ota_success_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page3.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\help_page3.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_page1.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\help_page1.xml"
-    },
-    {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\same_version_window.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\same_version_window.xml"
-    },
-    {
-        "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ota_view.xml",
-        "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_ota_view.xml"
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_item.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\wifi_item.xml"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_privacy_policy.xml",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_result_list_item.xml",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\layout\\scan_result_list_item.xml"
     }
 ]

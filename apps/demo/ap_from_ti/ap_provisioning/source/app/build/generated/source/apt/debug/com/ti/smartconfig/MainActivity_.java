@@ -100,9 +100,9 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        tabs = ((TabWidget) hasViews.findViewById(android.R.id.tabs));
         tabhost = ((FragmentTabHost) hasViews.findViewById(android.R.id.tabhost));
         real_tab_content = ((FrameLayout) hasViews.findViewById(com.ti.smartconfig.R.id.real_tab_content));
-        tabs = ((TabWidget) hasViews.findViewById(android.R.id.tabs));
         afterViews();
     }
 
@@ -138,20 +138,6 @@ public final class MainActivity_
     }
 
     @Override
-    public void testHelperMethod() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                MainActivity_.super.testHelperMethod();
-            }
-
-        }
-        );
-    }
-
-    @Override
     public void showSuccessDialog(final String mainText, final String leftButtonText, final String rightButtonText, final PopupType popupType, final PopUpCallback callback, final String headline) {
         handler_.post(new Runnable() {
 
@@ -159,6 +145,20 @@ public final class MainActivity_
             @Override
             public void run() {
                 MainActivity_.super.showSuccessDialog(mainText, leftButtonText, rightButtonText, popupType, callback, headline);
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void showTimeoutPopup(final WifiConfiguration configuration, final WifiManager wifiManager) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                MainActivity_.super.showTimeoutPopup(configuration, wifiManager);
             }
 
         }
@@ -194,31 +194,13 @@ public final class MainActivity_
     }
 
     @Override
-    public void showTimeoutPopup(final WifiConfiguration configuration, final WifiManager wifiManager) {
+    public void testHelperMethod() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                MainActivity_.super.showTimeoutPopup(configuration, wifiManager);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void scanForDevices() {
-        BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
-
-
-            @Override
-            public void execute() {
-                try {
-                    MainActivity_.super.scanForDevices();
-                } catch (Throwable e) {
-                    Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
-                }
+                MainActivity_.super.testHelperMethod();
             }
 
         }
@@ -234,6 +216,24 @@ public final class MainActivity_
             public void execute() {
                 try {
                     MainActivity_.super.stopScanning();
+                } catch (Throwable e) {
+                    Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
+                }
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void scanForDevices() {
+        BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
+
+
+            @Override
+            public void execute() {
+                try {
+                    MainActivity_.super.scanForDevices();
                 } catch (Throwable e) {
                     Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
                 }

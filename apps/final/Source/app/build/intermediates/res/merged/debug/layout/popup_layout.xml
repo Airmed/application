@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/popup_background_image"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_description"
+        android:background="@drawable/popup_shape" />
+
+    <ImageView
+        android:id="@+id/popup_status_image"
+        android:contentDescription="@string/image_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/popup_ok" />
+
+    <LinearLayout
+        android:id="@+id/popup_buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/popup_background_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/popup_left_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/popup_leftButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/image_description"
+                android:src="@drawable/popup_button_light" />
+
+            <TextView
+                android:id="@+id/popup_leftButton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/popup_right_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/popup_rightButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/image_description"
+                android:src="@drawable/popup_button_dark" />
+
+            <TextView
+                android:id="@+id/popup_rightButton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popup_text_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/popup_background_image"
+        android:layout_alignRight="@+id/popup_background_image"
+        android:layout_below="@+id/popup_status_image"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/color_popup_text"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/popup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/popup_buttons_layout"
+        android:layout_alignLeft="@+id/popup_background_image"
+        android:layout_alignRight="@+id/popup_background_image"
+        android:layout_below="@+id/popup_text_headline"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/color_popup_text"
+        android:textSize="16sp" />
+
+</RelativeLayout>

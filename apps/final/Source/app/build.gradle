@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'android-apt'
+
+android {
+
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.ti.smartconfig"
+        minSdkVersion 21
+        targetSdkVersion 26
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ['resourcePackageName': android.defaultConfig.applicationId]
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.github.tony19:logback-android:1.1.1-11'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:percent:26.1.0'
+    annotationProcessor "org.androidannotations:androidannotations:4.3.1"
+    implementation 'org.androidannotations:androidannotations-api:4.3.1'
+    implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1@aar'
+    implementation files('libs/jmdns-3.4.2-r353-1.jar')
+    implementation files('libs/jsoup-1.8.1.jar')
+    implementation files('libs/smartconfiglib2.jar')
+    implementation files('libs/apache-httpcomponents-httpcore.jar')
+    implementation files('libs/httpclient-4.0.3.jar')
+
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+
+}

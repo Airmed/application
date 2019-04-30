@@ -76,9 +76,9 @@ public final class HelpFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        toggleButton1 = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.toggleButton1));
         mPager = ((ViewPager) hasViews.findViewById(com.ti.smartconfig.R.id.pager));
         help_fragment_background_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.help_fragment_background_layout));
-        toggleButton1 = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.toggleButton1));
         {
             View view = hasViews.findViewById(com.ti.smartconfig.R.id.help_fragment_close_button);
             if (view!= null) {

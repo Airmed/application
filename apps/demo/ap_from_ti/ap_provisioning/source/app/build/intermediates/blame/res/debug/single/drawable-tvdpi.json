@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\download_tar_file_image.png",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\drawable-tvdpi\\download_tar_file_image.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\check_update_folder_pressed.png",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\drawable-tvdpi\\check_update_folder_pressed.png"
+    },
+    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\check_update_folder.png",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\drawable-tvdpi\\check_update_folder.png"
     },
@@ -8,8 +16,16 @@
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\drawable-tvdpi\\download_tar_file_image.png"
     },
     {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ti_log.png",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\drawable-tvdpi\\ti_log.png"
+    },
+    {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ti_log.png",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\drawable-tvdpi\\ti_log.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\check_update_folder.png",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\drawable-tvdpi\\check_update_folder.png"
     },
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\check_update_folder_pressed.png",
@@ -18,5 +34,9 @@
     {
         "merged": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ti_logo.png",
         "source": "C:\\ti\\android\\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\\source\\app\\src\\main\\res\\drawable-tvdpi\\ti_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ti_logo.png",
+        "source": "C:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_from_ti\\ap_provisioning\\source\\app\\src\\main\\res\\drawable-tvdpi\\ti_logo.png"
     }
 ]

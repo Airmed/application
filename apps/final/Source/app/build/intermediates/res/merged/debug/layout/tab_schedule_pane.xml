@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".SchedulePane">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/layoutstyle"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dispense Scheduling"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight=".28"
+                    android:background="@drawable/spinner_background"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/disp_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:padding="9dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="44dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="0dp"
+                        android:src="@drawable/selector_dropdown" />
+
+                </RelativeLayout>
+
+                <EditText
+
+                    android:layout_margin="8dp"
+                    android:id="@+id/edtDispName"
+                    android:padding="8dp"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:hint="Medication Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+
+                    android:layout_margin="8dp"
+                    android:id="@+id/edtHour"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:hint="Hour (24HR Clock)"
+                    android:maxLength="2"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+
+                    android:layout_margin="8dp"
+                    android:id="@+id/edtMin"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:hint="Minute"
+                    android:maxLength="2"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+
+                    android:layout_margin="8dp"
+                    android:id="@+id/edtDispQty"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:hint="Quantity to Dispense"
+                    android:maxLength="1"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/BtnDispPost"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSchedule"
+                    android:text="Add to Schedule"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Current Dispense Schedules"
+
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+                <ListView
+                    android:id="@+id/disp_records_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:layout_marginTop="16dp">
+                </ListView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textViewConnectionTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tab_schedule_view_tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center|bottom"
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"
+            android:textColor="@color/color_connection_text_sc_holo_grey" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

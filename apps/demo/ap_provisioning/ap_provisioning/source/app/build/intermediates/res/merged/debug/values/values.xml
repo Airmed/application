@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations">
+		<item>Home</item>
+		<item>Email</item>
+		<item>Calendar</item>
+		<item>Browser</item>
+	</string-array>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="color_background">#EFEFEF</color>
+    <color name="color_connection_text_sc_holo_green">#75E868</color>
+    <color name="color_connection_text_sc_holo_grey">#D1D1D1</color>
+    <color name="color_general_background">#DDD</color>
+    <color name="color_headline_background">#D6D4D7</color>
+    <color name="color_help_background">#EFEEEF</color>
+    <color name="color_line">#D6D7D7</color>
+    <color name="color_loader_background">#8C000000</color>
+    <color name="color_ota_background">#5B9DC6</color>
+    <color name="color_popup_text">#E6000000</color>
+    <color name="color_red">#5B9DC6</color>
+    <color name="color_upload_ota_button">#5B9DC6</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="otb_background_color">#EDCCCC</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="access_point_name">Access point \nname:</string>
+    <string name="access_point_pass">Access point \npassword:</string>
+    <string name="action_settings">Settings</string>
+    <string name="ap_mode_page1_text1">Connect the provided jumper to short pin P58 and VCC.</string>
+    <string name="ap_mode_page1_text2">Note: This will force the CC3200 into Access Point mode using default parameters and connect the USB cable to the Launchpad.</string>
+    <string name="ap_mode_page1_title">Step 1 – 3200 (3100 press next)</string>
+    <string name="ap_mode_page2_text">Connect the provided USB cable.\nPress and hold switch SW1.\nWhile holding SW1 press and release switch SW3.\nRelease SW1 one second after releasing SW3.</string>
+    <string name="ap_mode_page2_title">Step 1 – 3100</string>
+    <string name="ap_mode_page3_text">Open the WiFi settings on your device. Connect to network MySimpleLink-xxx. The letters xxx will vary between boards. Password is not needed.</string>
+    <string name="ap_mode_page3_title">Step 2</string>
+    <string name="ap_mode_page4_link">http://MySimpleLink.net/setup.html</string>
+    <string name="ap_mode_page4_text1">Click on the link below.</string>
+    <string name="ap_mode_page4_text2">The device will stream the on-board web pages to your web browser.</string>
+    <string name="ap_mode_page4_title">Step 3</string>
+    <string name="ap_mode_page5_text">Please enter your AP name and password and press \"Add Profile\".</string>
+    <string name="ap_mode_page5_title">Step 4</string>
+    <string name="ap_mode_page6_note">Note: If your phone and SimpleLink device are connected to the same network, the device will be shown in the devices tab.</string>
+    <string name="ap_mode_page6_text_3100">CC3100 – Restart the board.</string>
+    <string name="ap_mode_page6_text_3200">CC3200 – Remove jumper and restart the board.</string>
+    <string name="ap_mode_page6_title">Step 5</string>
+    <string name="ap_provisioning_spinner_headline">Search for your device</string>
+    <string name="ap_provisioning_wifi_name_text">Wifi Name</string>
+    <string name="app_name">Apotech</string>
+    <string name="attention">Attention</string>
+    <string name="attention_security_alert_message">Must supply security key for this network.</string>
+    <string name="attention_ssid_alert_message">Must supply SSID value.</string>
+    <string name="attention_wifi_range_alert_message">You cannot start the process with this network(not in your range).</string>
+    <string name="automation_data">AUTOMATION DATA</string>
+    <string name="delay_test_amount">Delay test by \n(minuets)</string>
+    <string name="delay_test_check">Delay test</string>
+    <string name="device_pick_pop_up_view_show_all">Show all</string>
+    <string name="device_pick_pop_up_view_show_only_devices">Show only devices</string>
+    <string name="devices_list_text">Devices</string>
+    <string name="devices_recent_text">Recently Added Devices</string>
+    <string name="done">Done</string>
+    <string name="enter_automation_data">Enter automation data:</string>
+    <string name="failure">Failure</string>
+    <string name="get_scan_result_failure">Failed to get the scan result from that device</string>
+    <string name="go">Go</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_show_text">Don\'t show again</string>
+    <string name="image_description">image</string>
+    <string name="iteration_num">Amount of \niterations:</string>
+    <string name="manual_new_wifi_password_hint">Password</string>
+    <string name="manual_new_wifi_ssid_hint">SSID</string>
+    <string name="manual_new_wifi_title">Add Profile Manually</string>
+    <string name="menu_settings">Settings</string>
+    <string name="new_smart_config_fragment_no_wifi_connection">No WiFi connection</string>
+    <string name="new_smart_config_fragment_search_for_your_network">Search for your network</string>
+    <string name="new_wifi_profile_add_button_text">Add</string>
+    <string name="new_wifi_profile_device_name_text">Device Name:</string>
+    <string name="new_wifi_profile_headline_text">Add New Profile</string>
+    <string name="new_wifi_profile_password_hint_text">Password</string>
+    <string name="new_wifi_profile_priority_hint_text">0–7 (7 = highest)</string>
+    <string name="new_wifi_profile_profile_priority_text">Profile Priority:</string>
+    <string name="new_wifi_profile_security_key_open_text">Open</string>
+    <string name="new_wifi_profile_security_key_text">Security Key:</string>
+    <string name="new_wifi_profile_security_key_wep_text">WEP</string>
+    <string name="new_wifi_profile_security_key_wpa_one_text">WPA1</string>
+    <string name="new_wifi_profile_security_key_wpa_two_text">WPA2</string>
+    <string name="new_wifi_profile_security_type_text">Security Type:</string>
+    <string name="new_wifi_profile_ssid_text">SSID:</string>
+    <string name="next">Next ></string>
+    <string name="outOfTheBox">Out Of The Box</string>
+    <string name="pop_up_close">Close</string>
+    <string name="privacy_policy_link"><u><b><i>PRIVACY POLICY</i></b></u></string>
+    <string name="profile_adding_success">Profile was added successfully to the device. It is ready for use.</string>
+    <string name="profile_confirmation_failure">Unable to read the current device connection state.</string>
+    <string name="progress_dialog_configuration_process">to confirm device configuration has succeeded.\n NO ABORT!</string>
+    <string name="refresh">Refresh</string>
+    <string name="require_pass">Access point \nrequire password</string>
+    <string name="scan_results_pop_up_view_minimize_wifi_networks_list">Minimize WiFi networks list</string>
+    <string name="scan_results_pop_up_view_show_all">Show all</string>
+    <string name="send">Send</string>
+    <string name="settings_ap_mode_text">Start AP Mode</string>
+    <string name="settings_auto_connect_text">Auto device selection</string>
+    <string name="settings_build_text">Build %1$s SC lib %2$s</string>
+    <string name="settings_debug_text">Enable Debug Mode</string>
+    <string name="settings_device_password_text">Enable Device Password</string>
+    <string name="settings_help_text">Help</string>
+    <string name="settings_iot_uuid_text">Show iotLink UUID</string>
+    <string name="settings_logs">Logs</string>
+    <string name="settings_open_devices_tab_explanation">If checked, the application will start on \'Devices List\' tab</string>
+    <string name="settings_open_devices_tab_text">Open in devices screen</string>
+    <string name="settings_privacy_text">Privacy Policy</string>
+    <string name="settings_show_name_explanation">If checked, device name entry will be available on configuration screen</string>
+    <string name="settings_show_name_text">Show Device Name</string>
+    <string name="settings_show_password_text">Show Security Key</string>
+    <string name="settings_sl_sc_text">Enable Smart Config</string>
+    <string name="settings_terms_text">Terms of Use</string>
+    <string name="settings_transmit_text">Smart Config Transmit Time (seconds)</string>
+    <string name="show">Show</string>
+    <string name="simplelink_device_original_name">SimpleLink device \noriginal name:</string>
+    <string name="smart_config_spinner_headline">Choose your network</string>
+    <string name="smart_config_spinner_manual_add">Add Network Manually</string>
+    <string name="smartconfig_cancel">Cancel</string>
+    <string name="smartconfig_device_name_explanation">This is the device name that will serve for discovery (optional)</string>
+    <string name="smartconfig_device_name_field">Name of the Device</string>
+    <string name="smartconfig_device_name_text">Device Name</string>
+    <string name="smartconfig_key_field">Device Password</string>
+    <string name="smartconfig_key_text">Key</string>
+    <string name="smartconfig_network_name_field">Network</string>
+    <string name="smartconfig_network_name_text">WiFi network</string>
+    <string name="smartconfig_network_pass_field">Password</string>
+    <string name="smartconfig_network_pass_text">Password</string>
+    <string name="smartconfig_start">Start</string>
+    <string name="success">Success</string>
+    <string name="tab_device_configuration_ap_router">Network Name</string>
+    <string name="tab_device_configuration_ap_search_device">Search for your device</string>
+    <string name="tab_device_configuration_ap_search_network">Search for your network</string>
+    <string name="tab_device_configuration_ap_search_router">Search for your Router</string>
+    <string name="tab_device_configuration_ap_security_wifi">Security Key</string>
+    <string name="tab_device_configuration_ap_select_device">Select Device to Configure</string>
+    <string name="tab_device_configuration_ap_select_wifi">Select your Wi-Fi router from the list</string>
+    <string name="tab_device_configuration_configuration_key">Configuration key</string>
+    <string name="tab_device_configuration_confirm">Confirm</string>
+    <string name="tab_device_configuration_connected_to_ssid">Connected to : %1$s</string>
+    <string name="tab_device_configuration_device_connection">Wifi Network</string>
+    <string name="tab_device_configuration_device_name">Name your device</string>
+    <string name="tab_device_configuration_device_password">Device password</string>
+    <string name="tab_device_configuration_device_settings_headline">Device settings</string>
+    <string name="tab_device_configuration_device_to_configure">Device to configure</string>
+    <string name="tab_device_configuration_headline">Device Configuration</string>
+    <string name="tab_device_configuration_iot_uuid_name">iotLink UUID</string>
+    <string name="tab_device_configuration_log">Log</string>
+    <string name="tab_device_configuration_no_wifi_connection">No WiFi Connection</string>
+    <string name="tab_device_configuration_question_mark">\?</string>
+    <string name="tab_device_configuration_rescan">Rescan</string>
+    <string name="tab_device_configuration_sc_device_configure">Choose device to configure</string>
+    <string name="tab_device_configuration_sc_device_continue">Continue</string>
+    <string name="tab_device_configuration_sc_network_manual_name">Write Network Name</string>
+    <string name="tab_device_configuration_sc_network_name">WiFi network</string>
+    <string name="tab_device_configuration_sc_network_password">Network Password</string>
+    <string name="tab_device_configuration_start">Start</string>
+    <string name="tab_device_configuration_view_other_network">Other network</string>
+    <string name="tab_device_sc_configuration_password_check_label_name">WiFi password</string>
+    <string name="tab_ota_developer_mode_window_title">Enter your own tar file path</string>
+    <string name="ti_privacy_policy_text">\n We don\'t collect any user data. \n We don\'t store or share your precise location.\n Use of social media services are governed by their \n respective terms of use and policies.
+       \n No personal data is stored or can be identified.</string>
+    <string name="ti_privacy_policy_text_header"><b>Texas Instruments (TI) Mobile Applications Privacy Policy</b></string>
+    <string name="title_activity_ap_mode">Configuration Page</string>
+    <string name="title_activity_apmode">APModeActivity</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_sc">Device config</string>
+    <string name="title_activity_terms_of_use">TermsOfUseActivity</string>
+    <string name="title_ap_provisioning">Automatic Device Configuration</string>
+    <string name="title_cloud_tab">Cloud Control</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_ota_tab">Firmware Update</string>
+    <string name="title_outOfTheBox_qrScanner">Scan the QR Code located on the package</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_smartconfig">Device Configuration</string>
+    <string name="toggle_off">OFF</string>
+    <string name="toggle_on">ON</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="Dialog_No_Border" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="ThemeDialogCustom">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="UploadButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/upload_button_selector</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

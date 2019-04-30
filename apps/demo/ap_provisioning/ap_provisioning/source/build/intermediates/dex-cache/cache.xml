@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\.gradle\caches\modules-2\files-2.1\org.androidannotations\androidannotations-api\3.2\89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1\androidannotations-api-3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\androidannotations-api-3.2_10ffc4137366afc9ce903323c9d0a1626e4ec442.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\jmdns-3.4.2-r353-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\jmdns-3.4.2-r353-1_e71391c7555447e95e9250301e677dfa1721aa09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\libs\smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\smartconfiglib2_d486008bcfc4325722155d5608108a32ba5c2c07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_a89dbb72a79f03a9d4d9d160af76768bda7ba065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\smartconfiglib2_3dc8d502d23de9d8ba58389d2624b48963ea9871.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_086bf7982dd081d73eab3ff0b942514c468c9896.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\libs\jmdns-3.4.2-r353-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\jmdns-3.4.2-r353-1_69ac4b772ec3ab0142649ca272d1fc1adaf6a365.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_99a4f1b7d382705be6c4590499b6c1d262031c99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3_339b10dcf74ffdb4800de01071995944354fb398.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\log4j-1.2.17_e94a0451b08a95bc8ef7cddbc12442cf795cb0f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_29bc12d558eb8e30a8d6242b4e634a84b7f1d57b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3_ca3f890d381e5be269df672786b202af9874bf7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\exploded-aar\fr.avianey.com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\fr.avianey.com.viewpagerindicator-library-2.4.1_5951b3f793d0cffad1f8ff32b9d1f8c265180677.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\log4j-1.2.17_364f3f9ffb8da3c1dd7c3a7ed20bbd59d9685c4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\libs\jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\jsoup-1.8.1_ee63723cd7105ea517659b26549be17451d1fc92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\exploded-aar\fr.avianey.com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\fr.avianey.com.viewpagerindicator-library-2.4.1_f13e76131f5f1457c48e3bcb8c460eeff38126cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_provisioning\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_cd97a8a835dbb231be674fc2cccdcf4d30cc39d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="C:\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\build\intermediates\pre-dexed\debug\jsoup-1.8.1_da76cdceb81a87b37e1e11c6612522df1aa6f08e.jar" />
+    </item>
+
+</items>

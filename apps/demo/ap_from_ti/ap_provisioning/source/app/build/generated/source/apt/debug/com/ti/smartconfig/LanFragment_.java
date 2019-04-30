@@ -75,14 +75,14 @@ public final class LanFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        red_led_button = ((ImageButton) hasViews.findViewById(com.ti.smartconfig.R.id.red_led_button));
-        tab_lan_cloud_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_cloud_textview));
         lan_tab_ssid_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.lan_tab_ssid_textview));
+        red_led_button = ((ImageButton) hasViews.findViewById(com.ti.smartconfig.R.id.red_led_button));
         tab_lan_macaddress_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_macaddress_textview));
-        tab_lan_red_button_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_red_button_layout));
+        tab_lan_cloud_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_cloud_textview));
+        tab_lan_axisz_respone = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_axisz_respone));
         tab_lan_axisx_respone = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_axisx_respone));
         tab_lan_axisy_respone = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_axisy_respone));
-        tab_lan_axisz_respone = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_axisz_respone));
+        tab_lan_red_button_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_red_button_layout));
         tab_lan_ipaddress_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_lan_ipaddress_textview));
         afterViews();
     }

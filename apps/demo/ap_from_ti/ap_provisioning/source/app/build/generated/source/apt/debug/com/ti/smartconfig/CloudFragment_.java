@@ -78,13 +78,13 @@ public final class CloudFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        cloud_configuration_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_configuration_button));
-        push_button_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.push_button_radio_button));
         freetext_edittext = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.freetext_edittext));
-        cloud_connection_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_connection_textview));
-        shake_board_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.shake_board_radio_button));
         send_to_edittext = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.send_to_edittext));
+        cloud_configuration_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_configuration_button));
+        cloud_connection_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_connection_textview));
         trigger_radio_group = ((RadioGroup) hasViews.findViewById(com.ti.smartconfig.R.id.trigger_radio_group));
+        shake_board_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.shake_board_radio_button));
+        push_button_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.push_button_radio_button));
         if (shake_board_radio_button!= null) {
             shake_board_radio_button.setOnClickListener(new OnClickListener() {
 

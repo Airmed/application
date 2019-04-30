@@ -70,8 +70,8 @@ public final class DevicesFragment_
     private void init_(Bundle savedInstanceState) {
         prefs = new SharedPreferencesInterface_(getActivity());
         OnViewChangedNotifier.registerOnViewChangedListener(this);
-        recentDeviceListAdapter = RecentDeviceListAdapter_.getInstance_(getActivity());
         deviceListAdapter = DeviceListAdapter_.getInstance_(getActivity());
+        recentDeviceListAdapter = RecentDeviceListAdapter_.getInstance_(getActivity());
     }
 
     @Override
@@ -86,9 +86,9 @@ public final class DevicesFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        devices_recent_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_recent_listView));
         devices_refresh_button = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_refresh_button));
         devices_refresh_spinner = ((ProgressBar) hasViews.findViewById(com.ti.smartconfig.R.id.devices_refresh_spinner));
-        devices_recent_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_recent_listView));
         devices_list_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_list_listView));
         if (devices_refresh_button!= null) {
             devices_refresh_button.setOnClickListener(new OnClickListener() {
@@ -130,20 +130,6 @@ public final class DevicesFragment_
     }
 
     @Override
-    public void showRefreshProgress() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DevicesFragment_.super.showRefreshProgress();
-            }
-
-        }
-        );
-    }
-
-    @Override
     public void updateDeviceList() {
         handler_.post(new Runnable() {
 
@@ -151,6 +137,20 @@ public final class DevicesFragment_
             @Override
             public void run() {
                 DevicesFragment_.super.updateDeviceList();
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void updateRecentDeviceList() {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DevicesFragment_.super.updateRecentDeviceList();
             }
 
         }
@@ -172,13 +172,13 @@ public final class DevicesFragment_
     }
 
     @Override
-    public void updateRecentDeviceList() {
+    public void showRefreshProgress() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DevicesFragment_.super.updateRecentDeviceList();
+                DevicesFragment_.super.showRefreshProgress();
             }
 
         }

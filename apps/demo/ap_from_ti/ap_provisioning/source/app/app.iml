@@ -28,7 +28,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/debug" isTestSource="false" generated="true" />
@@ -76,6 +75,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
@@ -96,14 +97,14 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\jsoup-1.8.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: fr.avianey.com.viewpagerindicator:library-2.4.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.androidannotations:androidannotations-api:3.2@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\android-logging-log4j-1.0.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\smartconfiglib2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4:21.0.3@aar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\jmdns-3.4.2-r353-1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:21.0.3@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\smartconfiglib2.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\jmdns-3.4.2-r353-1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\ti\android\SimpleLink_WiFi_Provisioning_Android_Source_2.2.22\source\app\libs\log4j-1.2.17.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\android-logging-log4j-1.0.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\jsoup-1.8.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.androidannotations:androidannotations-api:3.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: fr.avianey.com.viewpagerindicator:library:2.4.1@aar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\isaia\Documents\GitHub\airmed-app\apps\demo\ap_from_ti\ap_provisioning\source\app\libs\log4j-1.2.17.jar:unspecified@jar" level="project" />
   </component>
 </module>

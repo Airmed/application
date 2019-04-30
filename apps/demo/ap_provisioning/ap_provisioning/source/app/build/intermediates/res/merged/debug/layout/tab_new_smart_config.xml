@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/color_background" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:isScrollContainer="false"
+        android:background="@color/color_background" >
+
+        <RelativeLayout
+            android:id="@+id/tab_device_configuration_sc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/tab_lan_headline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/color_headline_background" >
+
+                <TextView
+                    android:id="@+id/tab_lan_headline_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/title_activity_ap_mode"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <!--
+                                <TextView
+                                    android:id="@+id/tab_device_configuration_connection_check_textView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tab_device_configuration_headline_label"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentRight="true"
+                                    android:gravity="center_horizontal"
+                                    android:text=""
+                                    android:textSize="13dp"/>-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/tab_lan_headline_label"
+                    android:background="@color/color_line" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tab_device_configuration_sc_device_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tab_lan_headline_layout"
+                android:background="@android:color/white" >
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_sc_device_name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/tab_device_configuration_device_name"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_configuration_sc_device_name_question_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_sc_device_name_editText"
+                    android:background="@drawable/new_graphics_help" />
+
+                <EditText
+                    android:id="@+id/tab_device_configuration_sc_device_name_editText"
+                    android:layout_width="175dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/new_graphics_white_box"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-"
+                    android:ems="10"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:maxLength="19" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/color_line" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/tab_device_configuration_configuration_key_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:visibility="gone"
+                android:layout_below="@+id/tab_device_configuration_sc_device_name_layout"
+                android:background="@android:color/white" >
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_configuration_key_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/tab_device_configuration_configuration_key"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_configuration_configuration_key_question_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_configuration_key_editText"
+                    android:background="@drawable/new_graphics_help" />
+
+                <EditText
+                    android:id="@+id/tab_device_configuration_configuration_key_editText"
+                    android:layout_width="175dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/new_graphics_white_box"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textSize="13sp"
+                    android:maxLength="16"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/color_line" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/tab_device_configuration_sc_network_to_configure_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tab_device_configuration_configuration_key_layout"
+                android:background="@android:color/white" >
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_sc_network_to_configure_label"
+                    android:text="@string/tab_device_configuration_sc_network_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_sc_network_question_button"
+                    android:maxLines="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_configuration_sc_network_question_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_network_to_configure_network_pick_layout"
+                    android:background="@drawable/new_graphics_help" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/color_line" />
+
+                <RelativeLayout
+                    android:id="@+id/tab_device_configuration_network_to_configure_network_pick_layout"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/tab_device_configuration_network_to_configure_network_pick_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dp"
+                        android:contentDescription="@string/image_description"
+                        android:src="@drawable/new_graphics_white_box_pick_red" />
+
+                    <TextView
+                        android:id="@+id/tab_device_configuration_network_to_configure_network_pick_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="34dp"
+                        android:maxLines="1"
+                        android:text="@string/tab_device_configuration_ap_search_network"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_line"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tab_device_configuration_sc_device_to_configure_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tab_device_configuration_sc_network_to_configure_layout"
+                android:background="@drawable/smart_config_manual_frame" >
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_sc_device_to_configure_label"
+                    android:text="@string/tab_device_configuration_sc_device_configure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_sc_device_question_button"
+                    android:maxLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_configuration_sc_device_question_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_device_to_configure_device_pick_layout"
+                    android:background="@drawable/new_graphics_help" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_line" />
+
+                    <!--android:layout_below="@+id/tab_device_sc_configuration_password_check_layout"-->
+                <RelativeLayout
+                    android:id="@+id/tab_device_configuration_device_to_configure_device_pick_layout"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/tab_device_configuration_device_to_configure_device_pick_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dp"
+                        android:contentDescription="@string/image_description"
+                        android:src="@drawable/new_graphics_white_box_pick_red" />
+
+                    <TextView
+                        android:id="@+id/tab_device_configuration_device_to_configure_device_pick_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="34dp"
+                        android:maxLines="1"
+                        android:text="@string/tab_device_configuration_ap_search_device"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_line"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/tab_device_sc_configuration_password_check_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tab_device_configuration_sc_device_to_configure_layout"
+                android:background="@android:color/white">
+                <!--android:visibility="gone">-->
+
+                <TextView
+                    android:id="@+id/tab_device_sc_configuration_password_check_label"
+                    android:text="@string/tab_device_sc_configuration_password_check_label_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_sc_configuration_password_check_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_sc_configuration_password_check_editText"
+                    android:background="@drawable/new_graphics_help" />
+
+                <EditText
+                    android:id="@+id/tab_device_sc_configuration_password_check_editText"
+                    android:layout_width="175dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/new_graphics_white_box"
+                    android:ems="10"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:paddingLeft="35dp"
+                    android:includeFontPadding="true"
+                    android:clickable="true"
+                    android:focusableInTouchMode="true"
+                    android:maxLength="64" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_line"
+                    android:id="@+id/view" />
+
+                <CheckBox
+                    android:id="@+id/tab_device_sc_configuration_password_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:scaleX="0.80"
+                    android:scaleY="0.80"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@+id/tab_device_sc_configuration_password_check_editText"
+                    android:layout_alignStart="@+id/tab_device_sc_configuration_password_check_editText" />
+
+            </RelativeLayout>
+            <!-- End of WiFi Password Check -->
+
+            <!-- IOT UUID -->
+            <RelativeLayout
+                android:id="@+id/tab_device_configuration_iot_uuid_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tab_device_sc_configuration_password_check_layout"
+                android:background="@android:color/white"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tab_device_configuration_iot_uuid_label"
+                    android:text="@string/tab_device_configuration_iot_uuid_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_iot_uuid_button"
+                    android:maxLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/tab_device_configuration_iot_uuid_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tab_device_configuration_iot_uuid_name_editText"
+                    android:background="@drawable/new_graphics_help" />
+
+                <EditText
+                    android:id="@+id/tab_device_configuration_iot_uuid_name_editText"
+                    android:layout_width="175dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/new_graphics_white_box"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-"
+                    android:ems="10"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:maxLength="64" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_line" />
+
+            </RelativeLayout>
+            <!-- End IOT UUID -->
+
+
+            <ImageView
+                android:id="@+id/tab_device_configuration_sc_start_button"
+                android:layout_width="200dp"
+                android:contentDescription="@string/image_description"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tab_device_configuration_iot_uuid_layout"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/start_configuration_button_off" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/tab_sc_loader_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/color_loader_background" >
+
+        <ProgressBar
+            android:id="@+id/tab_sc_loader_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tab_sc_loader_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab_sc_loader_progress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textViewConnectionTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@id/tab_device_configuration_device_connection"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center|bottom"
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"
+            android:textColor="@color/color_connection_text_sc_holo_grey"
+            android:text=""
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

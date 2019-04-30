@@ -82,26 +82,41 @@ public final class NewSmartConfigFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        tab_device_configuration_device_to_configure_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_label));
-        tab_sc_loader_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_sc_loader_layout));
-        tab_device_configuration_sc_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_layout));
         textViewConnectionTextView = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.textViewConnectionTextView));
-        tab_device_configuration_configuration_key_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_configuration_key_editText));
-        tab_device_configuration_sc_device_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_name_editText));
-        tab_device_configuration_sc_device_to_configure_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_to_configure_layout));
-        tab_device_sc_configuration_password_checkbox = ((CheckBox) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_sc_configuration_password_checkbox));
-        tab_device_configuration_network_to_configure_network_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_network_to_configure_network_pick_label));
-        tab_device_sc_configuration_password_check_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_sc_configuration_password_check_editText));
-        tab_sc_loader_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_sc_loader_label));
-        tab_device_configuration_device_to_configure_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_image));
-        tab_device_configuration_iot_uuid_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_name_editText));
+        tab_device_configuration_device_to_configure_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_label));
+        tab_device_configuration_configuration_key_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_configuration_key_layout));
         tab_device_sc_configuration_password_check_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_sc_configuration_password_check_layout));
-        tab_device_configuration_iot_uuid_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_layout));
         tab_device_configuration_sc_start_button = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_start_button));
+        tab_sc_loader_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_sc_loader_label));
+        tab_device_configuration_iot_uuid_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_layout));
         tab_device_configuration_device_connection = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_connection));
         tab_device_configuration_sc_device_name_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_name_layout));
-        tab_device_configuration_configuration_key_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_configuration_key_layout));
+        tab_device_configuration_sc_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_layout));
+        tab_device_sc_configuration_password_check_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_sc_configuration_password_check_editText));
+        tab_device_configuration_network_to_configure_network_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_network_to_configure_network_pick_label));
+        tab_device_configuration_iot_uuid_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_name_editText));
+        tab_device_configuration_configuration_key_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_configuration_key_editText));
+        tab_device_sc_configuration_password_checkbox = ((CheckBox) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_sc_configuration_password_checkbox));
+        tab_device_configuration_device_to_configure_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_image));
+        tab_device_configuration_sc_device_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_name_editText));
+        tab_sc_loader_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_sc_loader_layout));
+        tab_device_configuration_sc_device_to_configure_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_to_configure_layout));
         tab_device_configuration_network_to_configure_network_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_network_to_configure_network_pick_image));
+        {
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_name_question_button);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        NewSmartConfigFragment_.this.tab_device_configuration_sc_device_name_question_button();
+                    }
+
+                }
+                );
+            }
+        }
         {
             View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_network_question_button);
             if (view!= null) {
@@ -111,6 +126,33 @@ public final class NewSmartConfigFragment_
                     @Override
                     public void onClick(View view) {
                         NewSmartConfigFragment_.this.tab_device_configuration_sc_network_question_button();
+                    }
+
+                }
+                );
+            }
+        }
+        if (tab_device_configuration_sc_start_button!= null) {
+            tab_device_configuration_sc_start_button.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    NewSmartConfigFragment_.this.tab_device_configuration_sc_start_button();
+                }
+
+            }
+            );
+        }
+        {
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_question_button);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        NewSmartConfigFragment_.this.tab_device_configuration_sc_device_question_button();
                     }
 
                 }
@@ -159,33 +201,6 @@ public final class NewSmartConfigFragment_
                 );
             }
         }
-        {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_question_button);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        NewSmartConfigFragment_.this.tab_device_configuration_sc_device_question_button();
-                    }
-
-                }
-                );
-            }
-        }
-        if (tab_device_configuration_sc_start_button!= null) {
-            tab_device_configuration_sc_start_button.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    NewSmartConfigFragment_.this.tab_device_configuration_sc_start_button();
-                }
-
-            }
-            );
-        }
         if (tab_device_configuration_network_to_configure_network_pick_image!= null) {
             tab_device_configuration_network_to_configure_network_pick_image.setOnClickListener(new OnClickListener() {
 
@@ -198,22 +213,21 @@ public final class NewSmartConfigFragment_
             }
             );
         }
-        {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_sc_device_name_question_button);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        NewSmartConfigFragment_.this.tab_device_configuration_sc_device_name_question_button();
-                    }
-
-                }
-                );
-            }
-        }
         afterViews();
+    }
+
+    @Override
+    public void showToastWithMessage(final String msg) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                NewSmartConfigFragment_.super.showToastWithMessage(msg);
+            }
+
+        }
+        );
     }
 
     @Override
@@ -231,27 +245,13 @@ public final class NewSmartConfigFragment_
     }
 
     @Override
-    public void updateProgressDialog(final int progress) {
+    public void showNoWifiPopUp() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                NewSmartConfigFragment_.super.updateProgressDialog(progress);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void reloadDeviceSpinner() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                NewSmartConfigFragment_.super.reloadDeviceSpinner();
+                NewSmartConfigFragment_.super.showNoWifiPopUp();
             }
 
         }
@@ -273,6 +273,20 @@ public final class NewSmartConfigFragment_
     }
 
     @Override
+    public void showLoaderWithText(final Boolean show, final String msg) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                NewSmartConfigFragment_.super.showLoaderWithText(show, msg);
+            }
+
+        }
+        );
+    }
+
+    @Override
     public void checkParams() {
         handler_.post(new Runnable() {
 
@@ -280,6 +294,20 @@ public final class NewSmartConfigFragment_
             @Override
             public void run() {
                 NewSmartConfigFragment_.super.checkParams();
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void reloadDeviceSpinner() {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                NewSmartConfigFragment_.super.reloadDeviceSpinner();
             }
 
         }
@@ -315,41 +343,13 @@ public final class NewSmartConfigFragment_
     }
 
     @Override
-    public void showLoaderWithText(final Boolean show, final String msg) {
+    public void updateProgressDialog(final int progress) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                NewSmartConfigFragment_.super.showLoaderWithText(show, msg);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void showToastWithMessage(final String msg) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                NewSmartConfigFragment_.super.showToastWithMessage(msg);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void showNoWifiPopUp() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                NewSmartConfigFragment_.super.showNoWifiPopUp();
+                NewSmartConfigFragment_.super.updateProgressDialog(progress);
             }
 
         }

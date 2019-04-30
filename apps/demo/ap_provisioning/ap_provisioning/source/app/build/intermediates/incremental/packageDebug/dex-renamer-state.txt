@@ -1,0 +1,4 @@
+#Thu Mar 07 10:49:30 MST 2019
+base.0=C\:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_provisioning\\ap_provisioning\\source\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\isaia\\Documents\\GitHub\\airmed-app\\apps\\demo\\ap_provisioning\\ap_provisioning\\source\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

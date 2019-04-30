@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_headline_background">#D6D4D7</color> <!-- 214 212 215 -->
+    <color name="color_background">#EFEFEF</color> <!-- 239 239 239 -->
+    <color name="color_line">#D6D7D7</color> <!-- 214 215 215 -->
+    <color name="color_red">#186FB3</color> <!-- 255 68 68 -->
+    <color name="color_loader_background">#8C000000</color><!-- 0 0 0 50% -->
+    <color name="otb_background_color">#EDCCCC</color><!-- 0 0 0 50% -->
+    <color name="color_connection_text_sc_holo_grey">#D1D1D1</color>
+  <!-- Green 75E868 -->
+    <color name="color_connection_text_sc_holo_green">#75E868</color>
+    <color name="color_popup_text">#E6000000</color> <!-- 0 0 0 90% -->
+    <color name="color_upload_ota_button">#7DDBFA</color>
+    <color name="color_help_background">#EFEEEF</color>
+    <color name="color_ota_background">#186FB3</color>
+    <color name="color_general_background">#DDD</color>
+
+
+</resources>

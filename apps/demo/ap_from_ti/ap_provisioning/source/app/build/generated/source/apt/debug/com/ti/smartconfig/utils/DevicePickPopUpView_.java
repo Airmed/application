@@ -76,25 +76,13 @@ public final class DevicePickPopUpView_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        pick_pop_up_list = ((ListView) hasViews.findViewById(id.pick_pop_up_list));
-        scan_results_pop_up_pas_editText = ((EditText) hasViews.findViewById(id.scan_results_pop_up_pas_editText));
-        pick_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_ok_button));
-        pick_pop_up_loader = ((ProgressBar) hasViews.findViewById(id.pick_pop_up_loader));
         scan_results_pop_up_password_layout = ((RelativeLayout) hasViews.findViewById(id.scan_results_pop_up_password_layout));
-        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
         pick_pop_up_buttons_rescan_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_rescan_button));
-        if (pick_pop_up_buttons_ok_button!= null) {
-            pick_pop_up_buttons_ok_button.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    DevicePickPopUpView_.this.pick_pop_up_buttons_ok_button();
-                }
-
-            }
-            );
-        }
+        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
+        pick_pop_up_list = ((ListView) hasViews.findViewById(id.pick_pop_up_list));
+        pick_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_ok_button));
+        scan_results_pop_up_pas_editText = ((EditText) hasViews.findViewById(id.scan_results_pop_up_pas_editText));
+        pick_pop_up_loader = ((ProgressBar) hasViews.findViewById(id.pick_pop_up_loader));
         if (pick_pop_up_buttons_rescan_button!= null) {
             pick_pop_up_buttons_rescan_button.setOnClickListener(new OnClickListener() {
 
@@ -107,7 +95,33 @@ public final class DevicePickPopUpView_
             }
             );
         }
+        if (pick_pop_up_buttons_ok_button!= null) {
+            pick_pop_up_buttons_ok_button.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    DevicePickPopUpView_.this.pick_pop_up_buttons_ok_button();
+                }
+
+            }
+            );
+        }
         afterViews();
+    }
+
+    @Override
+    public void print(final String msg) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DevicePickPopUpView_.super.print(msg);
+            }
+
+        }
+        );
     }
 
     @Override
@@ -132,20 +146,6 @@ public final class DevicePickPopUpView_
             @Override
             public void run() {
                 DevicePickPopUpView_.super.startWifiScan();
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void print(final String msg) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DevicePickPopUpView_.super.print(msg);
             }
 
         }

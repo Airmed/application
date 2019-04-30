@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/scan_results_pop_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:background="@color/color_red"
+        android:textColor="@android:color/white"
+        android:text="@string/tab_device_configuration_ap_select_wifi"
+        android:textSize="15sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/scan_results_pop_up_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:descendantFocusability="afterDescendants"
+        android:layout_above="@+id/scan_results_pop_up_password_layout"
+        android:layout_below="@+id/scan_results_pop_up_title" >
+
+    </ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/scan_results_pop_up_filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_line"
+        android:layout_above="@+id/scan_results_pop_up_buttons_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <TextView
+            android:id="@+id/five_filter_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Show 2.4Ghz Only"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/five_filter_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/five_filter_label"
+            android:layout_toEndOf="@+id/five_filter_label" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/scan_results_pop_up_buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_line">
+
+        <ImageView
+            android:id="@+id/scan_results_pop_up_buttons_rescan_button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_rescan"/>
+
+        <ImageView
+            android:id="@+id/scan_results_pop_up_buttons_ok_button"
+            android:contentDescription="@string/image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_graphics_ok_off"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/scan_results_pop_up_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:id="@+id/scan_results_pop_up_password_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_above="@+id/scan_results_pop_up_filter_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/scan_results_pop_up_password_image"
+            android:contentDescription="@string/image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/new_graphics_key_log" />
+
+        <EditText
+            android:id="@+id/scan_results_pop_up_pas_editText"
+            android:inputType="text"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/new_graphics_white_box"
+            android:padding="5dp"
+            android:ems="10"
+            android:layout_toRightOf="@+id/scan_checkbox"
+            android:layout_toEndOf="@+id/scan_checkbox" />
+
+        <TextView
+            android:id="@+id/scan_results_pop_up_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/scan_results_pop_up_password_image"
+            android:text="@string/tab_device_configuration_ap_security_wifi"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/scan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/scan_results_pop_up_pas_editText"
+            android:layout_toRightOf="@+id/scan_results_pop_up_password_label"
+            android:layout_toEndOf="@+id/scan_results_pop_up_password_label" />
+    </RelativeLayout>
+
+</RelativeLayout>

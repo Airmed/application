@@ -71,25 +71,13 @@ public final class Popup_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        popup_status_image = ((ImageView) hasViews.findViewById(id.popup_status_image));
-        popup_text = ((TextView) hasViews.findViewById(id.popup_text));
-        popup_buttons_layout = ((LinearLayout) hasViews.findViewById(id.popup_buttons_layout));
         popup_rightButton_text = ((TextView) hasViews.findViewById(id.popup_rightButton_text));
+        popup_right_button_layout = ((RelativeLayout) hasViews.findViewById(id.popup_right_button_layout));
+        popup_status_image = ((ImageView) hasViews.findViewById(id.popup_status_image));
+        popup_buttons_layout = ((LinearLayout) hasViews.findViewById(id.popup_buttons_layout));
         popup_leftButton_text = ((TextView) hasViews.findViewById(id.popup_leftButton_text));
         popup_text_headline = ((TextView) hasViews.findViewById(id.popup_text_headline));
-        popup_right_button_layout = ((RelativeLayout) hasViews.findViewById(id.popup_right_button_layout));
-        if (popup_rightButton_text!= null) {
-            popup_rightButton_text.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    Popup_.this.popup_rightButton_text();
-                }
-
-            }
-            );
-        }
+        popup_text = ((TextView) hasViews.findViewById(id.popup_text));
         {
             View view = hasViews.findViewById(id.popup_leftButton);
             if (view!= null) {
@@ -104,6 +92,18 @@ public final class Popup_
                 }
                 );
             }
+        }
+        if (popup_rightButton_text!= null) {
+            popup_rightButton_text.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    Popup_.this.popup_rightButton_text();
+                }
+
+            }
+            );
         }
         afterViews();
     }

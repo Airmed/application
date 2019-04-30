@@ -73,8 +73,8 @@ public final class PrivacyPolicyActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        privacy_policy_ti_textView = ((TextView) hasViews.findViewById(id.privacy_policy_ti_textView));
         privacy_policy_textView = ((TextView) hasViews.findViewById(id.privacy_policy_textView));
+        privacy_policy_ti_textView = ((TextView) hasViews.findViewById(id.privacy_policy_ti_textView));
         privacy_policy_webView = ((WebView) hasViews.findViewById(id.privacy_policy_webView));
         privacy_policy_ti_textView_header = ((TextView) hasViews.findViewById(id.privacy_policy_ti_textView_header));
         if (privacy_policy_textView!= null) {

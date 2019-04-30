@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload_button_selector.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\upload_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_rounded_corners.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\layout_rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9a865c9f2884d39ea903dda603993591\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.4.1.aar\\f128927754275f2f9a8453587ed88791\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\95aa15da08bb8b38bb9eadce8f626dc1\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload_button.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\upload_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher_future.png",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\ic_launcher_future.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_configuration_button_off.png",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\start_configuration_button_off.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_shape.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\popup_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_borders.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\blue_borders.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\95aa15da08bb8b38bb9eadce8f626dc1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9a865c9f2884d39ea903dda603993591\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9a865c9f2884d39ea903dda603993591\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_configuration_button_on.png",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\start_configuration_button_on.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_shape.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\progress_bar_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_history_selector.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\tab_history_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_disabled.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\rounded_corners_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_roundcorners.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\shadow_roundcorners.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\edittext_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\95aa15da08bb8b38bb9eadce8f626dc1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9a865c9f2884d39ea903dda603993591\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\isaia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\40327e4e8ee9cb5e092cec2d40927ab5\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload_button_pressed.xml",
+        "source": "C:\\Users\\isaia\\Desktop\\BAD NON WORKING\\BACKUP\\source\\Source\\app\\src\\main\\res\\drawable\\upload_button_pressed.xml"
+    }
+]

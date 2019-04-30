@@ -83,40 +83,25 @@ public final class DeviceConfiguration_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        textViewConnectionTextView = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.textViewConnectionTextView));
-        tab_device_configuration_iot_uuid_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_name_editText));
-        tab_device_configuration_device_to_configure_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_image));
-        tab_device_configuration_device_connection = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_connection));
+        tab_device_configuration_loader_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_loader_layout));
+        tab_device_configuration_router_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_image));
         tab_device_configuration_device_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_name_editText));
+        tab_device_configuration_password_check_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_check_editText));
+        tab_device_configuration_iot_uuid_name_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_name_editText));
+        tab_device_configuration_password_checkbox = ((CheckBox) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_checkbox));
+        tab_device_configuration_password_check_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_check_layout));
+        tab_device_configuration_device_to_configure_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_image));
+        tab_device_configuration_router_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_layout));
+        tab_device_configuration_device_to_configure_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_label));
+        tab_device_configuration_router_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_label));
+        tab_device_configuration_router_device_pick_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_layout));
+        textViewConnectionTextView = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.textViewConnectionTextView));
+        tab_device_configuration_device_name_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_name_layout));
+        tab_device_configuration_loader_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_loader_label));
+        tab_device_configuration_device_connection = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_connection));
+        tab_device_configuration_iot_uuid_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_layout));
         tab_device_configuration_device_to_configure_device_pick_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_layout));
         tab_device_configuration_start_button = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_start_button));
-        tab_device_configuration_router_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_layout));
-        tab_device_configuration_password_checkbox = ((CheckBox) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_checkbox));
-        tab_device_configuration_iot_uuid_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_layout));
-        tab_device_configuration_router_device_pick_image = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_image));
-        tab_device_configuration_device_name_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_name_layout));
-        tab_device_configuration_device_to_configure_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_device_pick_label));
-        tab_device_configuration_loader_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_loader_label));
-        tab_device_configuration_router_device_pick_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_layout));
-        tab_device_configuration_router_device_pick_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_device_pick_label));
-        tab_device_configuration_loader_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_loader_layout));
-        tab_device_configuration_password_check_editText = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_check_editText));
-        tab_device_configuration_password_check_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_password_check_layout));
-        {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_button);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        DeviceConfiguration_.this.tab_device_configuration_iot_uuid_button();
-                    }
-
-                }
-                );
-            }
-        }
         {
             View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_name_question_button);
             if (view!= null) {
@@ -145,21 +130,6 @@ public final class DeviceConfiguration_
             );
         }
         {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_question_button);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        DeviceConfiguration_.this.tab_device_configuration_router_question_button();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_device_to_configure_question_button);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -174,17 +144,20 @@ public final class DeviceConfiguration_
                 );
             }
         }
-        if (tab_device_configuration_start_button!= null) {
-            tab_device_configuration_start_button.setOnClickListener(new OnClickListener() {
+        {
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_router_question_button);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
 
 
-                @Override
-                public void onClick(View view) {
-                    DeviceConfiguration_.this.tab_device_configuration_start_button();
+                    @Override
+                    public void onClick(View view) {
+                        DeviceConfiguration_.this.tab_device_configuration_router_question_button();
+                    }
+
                 }
-
+                );
             }
-            );
         }
         if (tab_device_configuration_router_device_pick_layout!= null) {
             tab_device_configuration_router_device_pick_layout.setOnClickListener(new OnClickListener() {
@@ -193,6 +166,33 @@ public final class DeviceConfiguration_
                 @Override
                 public void onClick(View view) {
                     DeviceConfiguration_.this.tab_device_configuration_router_device_pick_layout();
+                }
+
+            }
+            );
+        }
+        {
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.tab_device_configuration_iot_uuid_button);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        DeviceConfiguration_.this.tab_device_configuration_iot_uuid_button();
+                    }
+
+                }
+                );
+            }
+        }
+        if (tab_device_configuration_start_button!= null) {
+            tab_device_configuration_start_button.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    DeviceConfiguration_.this.tab_device_configuration_start_button();
                 }
 
             }
@@ -215,34 +215,6 @@ public final class DeviceConfiguration_
     }
 
     @Override
-    public void setToReady(final Boolean isReady) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DeviceConfiguration_.super.setToReady(isReady);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void showDeviceConfigurationDialog() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DeviceConfiguration_.super.showDeviceConfigurationDialog();
-            }
-
-        }
-        );
-    }
-
-    @Override
     public void finish(final Boolean moveToDevice) {
         handler_.post(new Runnable() {
 
@@ -250,34 +222,6 @@ public final class DeviceConfiguration_
             @Override
             public void run() {
                 DeviceConfiguration_.super.finish(moveToDevice);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void showToastWithMessage(final String msg) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DeviceConfiguration_.super.showToastWithMessage(msg);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void changeDeviceName(final String newName) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DeviceConfiguration_.super.changeDeviceName(newName);
             }
 
         }
@@ -299,13 +243,13 @@ public final class DeviceConfiguration_
     }
 
     @Override
-    public void checkParams() {
+    public void print(final String string) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DeviceConfiguration_.super.checkParams();
+                DeviceConfiguration_.super.print(string);
             }
 
         }
@@ -341,13 +285,13 @@ public final class DeviceConfiguration_
     }
 
     @Override
-    public void showLoaderWithText(final Boolean show, final String msg) {
+    public void checkParams() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DeviceConfiguration_.super.showLoaderWithText(show, msg);
+                DeviceConfiguration_.super.checkParams();
             }
 
         }
@@ -355,27 +299,13 @@ public final class DeviceConfiguration_
     }
 
     @Override
-    public void resetDeviceToConfigureView() {
+    public void showDeviceConfigurationDialog() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DeviceConfiguration_.super.resetDeviceToConfigureView();
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void print(final String string) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DeviceConfiguration_.super.print(string);
+                DeviceConfiguration_.super.showDeviceConfigurationDialog();
             }
 
         }
@@ -397,6 +327,48 @@ public final class DeviceConfiguration_
     }
 
     @Override
+    public void changeDeviceName(final String newName) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DeviceConfiguration_.super.changeDeviceName(newName);
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void showToastWithMessage(final String msg) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DeviceConfiguration_.super.showToastWithMessage(msg);
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void setToReady(final Boolean isReady) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DeviceConfiguration_.super.setToReady(isReady);
+            }
+
+        }
+        );
+    }
+
+    @Override
     public void updateProgressDialog(final int progress) {
         handler_.post(new Runnable() {
 
@@ -404,6 +376,34 @@ public final class DeviceConfiguration_
             @Override
             public void run() {
                 DeviceConfiguration_.super.updateProgressDialog(progress);
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void resetDeviceToConfigureView() {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DeviceConfiguration_.super.resetDeviceToConfigureView();
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void showLoaderWithText(final Boolean show, final String msg) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DeviceConfiguration_.super.showLoaderWithText(show, msg);
             }
 
         }

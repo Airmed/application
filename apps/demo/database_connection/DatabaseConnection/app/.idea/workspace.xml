@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b597a78-0812-4f60-883e-c8e52fb59df3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__Users_isaia_Documents_GitHub_airmed_app_apps_demo_ap_from_ti_ap_provisioning_source_app_libs_android_logging_log4j_1_0_3_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__Users_isaia_Documents_GitHub_airmed_app_apps_demo_ap_from_ti_ap_provisioning_source_app_libs_jmdns_3_4_2_r353_1_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__Users_isaia_Documents_GitHub_airmed_app_apps_demo_ap_from_ti_ap_provisioning_source_app_libs_jsoup_1_8_1_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__Users_isaia_Documents_GitHub_airmed_app_apps_demo_ap_from_ti_ap_provisioning_source_app_libs_log4j_1_2_17_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__Users_isaia_Documents_GitHub_airmed_app_apps_demo_ap_from_ti_ap_provisioning_source_app_libs_smartconfiglib2_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle__com_android_support_support_v4_21_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle__fr_avianey_com_viewpagerindicator_library_2_4_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_loopj_android_android_async_http_1_4_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_pusher_pusher_java_client_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cz_msebera_android_httpclient_4_3_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_java_websocket_java_websocket_1_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_log4j12_1_7_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.gradle/3.5/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__ti_android_SimpleLink_WiFi_Provisioning_Android_Source_2_2_22_source_app_libs_android_logging_log4j_1_0_3_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__ti_android_SimpleLink_WiFi_Provisioning_Android_Source_2_2_22_source_app_libs_jmdns_3_4_2_r353_1_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__ti_android_SimpleLink_WiFi_Provisioning_Android_Source_2_2_22_source_app_libs_jsoup_1_8_1_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__ti_android_SimpleLink_WiFi_Provisioning_Android_Source_2_2_22_source_app_libs_log4j_1_2_17_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle____local_jars___C__ti_android_SimpleLink_WiFi_Provisioning_Android_Source_2_2_22_source_app_libs_smartconfiglib2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle__com_android_support_support_v4_21_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/libraries/Gradle__fr_avianey_com_viewpagerindicator_library_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/androidannotations.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/androidannotations.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/CloudFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/CloudFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/DeviceConfiguration_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/DeviceConfiguration_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/DevicesFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/DevicesFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/HelpFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/HelpFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/LanFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/LanFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/MainActivity_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/MainActivity_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/NewSmartConfigFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/NewSmartConfigFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/OtaFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/OtaFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/PrivacyPolicyActivity_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/PrivacyPolicyActivity_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/SettingsFragment_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/SettingsFragment_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/DeviceItemView_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/DeviceItemView_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/DevicePickPopUpView_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/DevicePickPopUpView_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/MDnsHelper_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/MDnsHelper_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/Popup_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/Popup_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/generated/source/apt/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/anim.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/anim.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/color.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/color.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-ldpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-ldpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/drawable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/blame/res/debug/single/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/CloudFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/CloudFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DeviceConfiguration_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/DevicesFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/HelpFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/HelpFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/LanFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/LanFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/MainActivity_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/NewSmartConfigFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/OtaFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/OtaFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/PrivacyPolicyActivity_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/PrivacyPolicyActivity_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/SettingsFragment_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DeviceItemView_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DeviceItemView_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/DevicePickPopUpView_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/MDnsHelper_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/Popup_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/classes/debug/com/ti/smartconfig/utils/ScanResultsPopUpView_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/zip-cache/6YMo4fZoTMlkJU5UE6anLRPMtsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/incremental/packageDebug/zip-cache/POI_JtnAkQVfiAHxyMZZQzxf_Hg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/android-logging-log4j-1.0.3_f0514a217ab69f1de5ef46ec699778bf0dc34c5e.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2_10ffc4137366afc9ce903323c9d0a1626e4ec442.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2_10ffc4137366afc9ce903323c9d0a1626e4ec442.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_684439b36ac04d940a755777f503240aafdc559a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/debug_1785b390f2fbd06740ca38896d6ea5fbdb7e4391.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_e650c2b07eea767b4141a700a81cab0931520b56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_c3d4aa429d9ea19cea204b212f32845bd640b0cc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/jmdns-3.4.2-r353-1_4e68a418aac6a5412b4b5245ef6e857c131f28fa.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_ec41fc263c07d196d4613d63b2ea8f819ced42a1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/log4j-1.2.17_c4de6d521f35ceedfb6df2af613604f3b925be5d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/smartconfiglib2_7c9fd041a7514bb84196e02deddf0b0ce5f89074.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_a89dbb72a79f03a9d4d9d160af76768bda7ba065.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_a89dbb72a79f03a9d4d9d160af76768bda7ba065.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/source.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ap_from_ti/ap_provisioning/source/source.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/buttonstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/layoutstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="130395817">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="6" />
+          <entry key="java" value="4" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="6" />
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="113" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/UserRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1732" />
+    <option name="height" value="1406" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DatabaseConnection" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BAD NON WORKING/BACKUP/source/Source/app" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b597a78-0812-4f60-883e-c8e52fb59df3" name="Default Changelist" comment="" />
+      <created>1554178477972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554178477972</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.11093333" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" visible="true" weight="0.43600866" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32954547" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="113" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/isaia/databaseconnection/UserRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
